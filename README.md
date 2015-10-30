@@ -1,8 +1,8 @@
 New Spyder for Prixan
 
-#Install 
+# Install
 ```
-git clone 
+git clone
 ```
 
 ```
