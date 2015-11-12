@@ -57,6 +57,7 @@ class Crawler:
         self.session = aiohttp.ClientSession(loop=self.loop)
         self.root_domains = set()
         self.css_selectors = css_selectors
+        self.selector_type = {'#' : 'id', '.' : 'class'}
         for root in roots:
             parts = urllib.parse.urlparse(root)
             host, port = urllib.parse.splitport(parts.netloc)
@@ -115,9 +116,22 @@ class Crawler:
         """Record the FetchStatistic for completed / failed URL."""
         self.done.append(fetch_statistic)
 
+    def search_selectors(self, selectors, s):
+        selectors = selectors[0].split(' ')
+        for selector in selectors:
+            if selector != ' ' and selector:
+                sel_t = self.selector_type[selector[0]]
+                s.find_all()
+
     def get_data(self, s):
+        data = []
         print("getting data...")
-        print(self.css_selectors)
+        for rule in self.css_selectors:
+            for key, value in rule.items():
+                info = self.search_selectors(value,s)
+                data.append({key : info})
+        return data
+                
 
     def save(self, data):
         print("saving data...")
@@ -130,6 +144,7 @@ class Crawler:
         encoding = None
         body = yield from response.read()
 
+        LOGGER.info('Parsing links...') ########### INFO
         if response.status == 200:
             content_type = response.headers.get('content-type')
             pdict = {}
@@ -266,6 +281,7 @@ class Crawler:
     @asyncio.coroutine
     def crawl(self):
         """Run the crawler until all finished."""
+        LOGGER.info('Starting crawl...')
         workers = [asyncio.Task(self.work(), loop=self.loop)
                    for _ in range(self.max_tasks)]
         self.t0 = time.time()

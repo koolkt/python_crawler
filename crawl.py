@@ -84,17 +84,15 @@ def main():
     r = redis.StrictRedis(host='localhost', port=6379, db=0)
     data = r.blpop('queue:test')
     data = json.loads(data[1].decode('utf-8'))
-    roots = {data['url']}
+    roots = {fix_url(data['url'])}
     selectors = data['selectors']
-    print(data)
-    exit()
     crawler = crawling.Crawler(roots,
                                css_selectors = selectors,
                                exclude=args.exclude,
                                strict=args.strict,
                                max_redirect=args.max_redirect,
                                max_tries=args.max_tries,
-                               max_tasks=args.max_tasks,
+                               max_tasks= 1, #args.max_tasks,
                                )
     try:
         loop.run_until_complete(crawler.crawl())  # Crawler gonna crawl.
