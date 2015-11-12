@@ -129,6 +129,7 @@ class Crawler:
                 print(value[0].split()[0].strip(),value[0].strip().replace('  ', ' ').replace(' ', '>'))
                 info = d(".breadcrumb")#self.search_selectors(value,d)
                 print("FOUND: %s" % (info))
+                print(text)
                 exit()
                 data.append({key : info})
         return data
