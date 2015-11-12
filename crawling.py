@@ -8,6 +8,7 @@ import urllib.parse
 from bs4 import BeautifulSoup
 import aiohttp
 from asyncio import Queue
+from pyquery import PyQuery as pq
 
 LOGGER = logging.getLogger(__name__)
 
@@ -116,19 +117,19 @@ class Crawler:
         """Record the FetchStatistic for completed / failed URL."""
         self.done.append(fetch_statistic)
 
-    def search_selectors(self, selectors, s):
-        selectors = selectors[0].split(' ')
-        for selector in selectors:
-            if selector != ' ' and selector:
-                sel_t = self.selector_type[selector[0]]
-                s.find_all()
+    def search_selectors(self, selectors, d):
+        return d(selectors)
 
-    def get_data(self, s):
+    def get_data(self, text):
         data = []
         print("getting data...")
         for rule in self.css_selectors:
             for key, value in rule.items():
-                info = self.search_selectors(value,s)
+                d = pq(text)
+                print(value[0].split()[0].strip(),value[0].strip().replace('  ', ' ').replace(' ', '>'))
+                info = d(".breadcrumb")#self.search_selectors(value,d)
+                print("FOUND: %s" % (info))
+                exit()
                 data.append({key : info})
         return data
                 
@@ -154,9 +155,11 @@ class Crawler:
 
             encoding = pdict.get('charset', 'utf-8')
             if content_type in ('text/html', 'application/xml'):
-                s = BeautifulSoup(body, 'lxml')
-                urls = set([ a.get('href') for a in s.find_all('a')])
-                data = self.get_data(s)
+                text = yield from response.text()
+                d = pq(text)
+                #urls = set([ a.get('href') for a in s.find_all('a')])
+                urls = set([a.attrib['href'] for a in d('a')])
+                data = self.get_data(text)
                 self.save(data)
                 for url in urls:
                     normalized = urllib.parse.urljoin(response.url, url)
