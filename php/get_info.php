@@ -8,19 +8,25 @@ class RedisQueue {
         echo "connecting...\n";
     }
 
+    /*
+     *      Generator to pop messages from the queue until its exausted
+     */
+
     function rq_gen_pop($n) {
         if (!$n) {
             echo "No name specified to rq_get_data!";
             return;
         }
-        while ($n) {
-            #echo $this->redis->llen($n.':product_info');
-            #echo $n.':product_info'.'\n';
+        while ($n and $this->redis->llen($n)) {
             yield $this->redis->lpop($n);
         }
         return null;
     }
 
+    /*
+     *      Creates a generator then gets every element from the queue one by one
+     */
+    
     function rq_get_data($name) {
         $item_generator = $this->rq_gen_pop($name.':product_info');
         print_r($item_generator);
