@@ -43,12 +43,14 @@ class Crawler:
     URLs seen, and 'done' is a list of FetchStatistics.
     """
     def __init__(self, roots,
+                 seed,
                  css_selectors,
                  exclude=None, strict=True,  # What to crawl.
                  max_redirect=10, max_tries=4,  # Per-url limits.
                  max_tasks=10, *, loop=None):
         self.loop = loop or asyncio.get_event_loop()
         self.roots = roots
+        self.seed = seed
         self.exclude = exclude
         self.strict = strict
         self.max_redirect = max_redirect
@@ -61,6 +63,7 @@ class Crawler:
         self.root_domains = set()
         self.css_selectors = css_selectors
         self.redis_queue = None
+        self.saved_products = set()
         for root in roots:
             parts = urllib.parse.urlparse(root)
             host, port = urllib.parse.splitport(parts.netloc)
@@ -120,8 +123,7 @@ class Crawler:
         self.done.append(fetch_statistic)
 
     def get_data(self, query):
-        data = []
-        print("getting data...")
+        data = {}
         for rule in self.css_selectors:
             for key, value in rule.items():
                 for selector_string in  value:
@@ -132,17 +134,22 @@ class Crawler:
                         info  = [e.text() for e in info.items()]
                     else:
                         info  = [e.attr['src'] for e in info.items()]
-                    print("FOUND: %s" % (info))
-                    data.append({key : info})
+                    LOGGER.debug("FOUND: %s" % (info))
+                    data.update({key : info})
                     break
         return data
                 
     @asyncio.coroutine
     def save(self, data):
-        print("*********************************************pushing data to queue..")
+        if data.get('image_css', 'err')[0] in self.saved_products:
+            yield from self.redis_queue.sadd(self.seed+':duplicate_product_urls',
+                                              [data.get('url', None)])
+            LOGGER.info('Product duplicate %s', data.get('url', None))
+            return
         json_data = json.dumps(data)
-        yield from self.redis_queue.rpush('queue:product_info', [json_data])
-        print("pushed data to queue!")
+        self.saved_products.add(data.get('image_css', 'err')[0])
+        yield from self.redis_queue.rpush(self.seed+':product_info',
+                                          [json_data])
         
     @asyncio.coroutine
     def parse_links(self, response):
@@ -151,16 +158,11 @@ class Crawler:
         content_type = None
         encoding = None
         body = yield from response.read()
-
-        LOGGER.info('Parsing links...')
-
         if response.status == 200:
             content_type = response.headers.get('content-type')
             pdict = {}
-
             if content_type:
                 content_type, pdict = cgi.parse_header(content_type)
-
             encoding = pdict.get('charset', 'utf-8')
             if content_type in ('text/html', 'application/xml'):
                 text = yield from response.text()
@@ -169,9 +171,13 @@ class Crawler:
                 data = self.get_data(q)
                 if not len(data):
                     LOGGER.info('No products found in url  %s',response.url)
+                    yield from self.redis_queue.sadd(self.seed+':no_product_urls',
+                                                     [response.url])
                 else:
-                    LOGGER.info('PRODUCT_PAGE : %s',response.url)
-                    data.append({'url': response.url})
+                    LOGGER.debug('PRODUCT_PAGE : %s',response.url)
+                    yield from self.redis_queue.sadd(self.seed+':product_urls',
+                                                     [response.url])
+                    data.update({'url': response.url})
                     yield from self.save(data)
                 for url in urls:
                     normalized = urllib.parse.urljoin(response.url, url)
@@ -179,7 +185,7 @@ class Crawler:
                     if self.url_allowed(defragmented):
                         links.add(defragmented)
                 if urls:
-                    LOGGER.info('got %r distinct urls from %r total: %i new links: %i visited: %i',
+                    LOGGER.debug('got %r distinct urls from %r total: %i new links: %i visited: %i',
                                 len(urls), response.url, len(links), len(links - self.seen_urls), len(self.seen_urls))
                 
         stat = FetchStatistic(

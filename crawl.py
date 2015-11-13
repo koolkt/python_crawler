@@ -87,6 +87,7 @@ def main():
     roots = {fix_url(data['url'])}
     selectors = data['selectors']
     crawler = crawling.Crawler(roots,
+                               seed = fix_url(data['url']),
                                css_selectors = selectors,
                                exclude=args.exclude,
                                strict=args.strict,
