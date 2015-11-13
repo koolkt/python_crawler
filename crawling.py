@@ -9,6 +9,8 @@ from bs4 import BeautifulSoup
 import aiohttp
 from asyncio import Queue
 from pyquery import PyQuery as pq
+import asyncio_redis
+import json
 
 LOGGER = logging.getLogger(__name__)
 
@@ -58,7 +60,7 @@ class Crawler:
         self.session = aiohttp.ClientSession(loop=self.loop)
         self.root_domains = set()
         self.css_selectors = css_selectors
-        self.selector_type = {'#' : 'id', '.' : 'class'}
+        self.redis_queue = None
         for root in roots:
             parts = urllib.parse.urlparse(root)
             host, port = urllib.parse.splitport(parts.netloc)
@@ -117,26 +119,30 @@ class Crawler:
         """Record the FetchStatistic for completed / failed URL."""
         self.done.append(fetch_statistic)
 
-    def search_selectors(self, selectors, d):
-        return d(selectors)
-
-    def get_data(self, text):
+    def get_data(self, query):
         data = []
         print("getting data...")
         for rule in self.css_selectors:
             for key, value in rule.items():
-                d = pq(text)
-                print(value[0].split()[0].strip(),value[0].strip().replace('  ', ' ').replace(' ', '>'))
-                info = d(".breadcrumb")#self.search_selectors(value,d)
-                print("FOUND: %s" % (info))
-                print(text)
-                exit()
-                data.append({key : info})
+                for selector_string in  value:
+                    info = query(selector_string)
+                    if (not info):
+                        continue
+                    if (key != 'image_css'):
+                        info  = [e.text() for e in info.items()]
+                    else:
+                        info  = [e.attr['src'] for e in info.items()]
+                    print("FOUND: %s" % (info))
+                    data.append({key : info})
+                    break
         return data
                 
-
+    @asyncio.coroutine
     def save(self, data):
-        print("saving data...")
+        print("*********************************************pushing data to queue..")
+        json_data = json.dumps(data)
+        yield from self.redis_queue.rpush('queue:product_info', [json_data])
+        print("pushed data to queue!")
         
     @asyncio.coroutine
     def parse_links(self, response):
@@ -146,7 +152,8 @@ class Crawler:
         encoding = None
         body = yield from response.read()
 
-        LOGGER.info('Parsing links...') ########### INFO
+        LOGGER.info('Parsing links...')
+
         if response.status == 200:
             content_type = response.headers.get('content-type')
             pdict = {}
@@ -157,11 +164,15 @@ class Crawler:
             encoding = pdict.get('charset', 'utf-8')
             if content_type in ('text/html', 'application/xml'):
                 text = yield from response.text()
-                d = pq(text)
-                #urls = set([ a.get('href') for a in s.find_all('a')])
-                urls = set([a.attrib['href'] for a in d('a')])
-                data = self.get_data(text)
-                self.save(data)
+                q = pq(text)
+                urls = set([a.attrib['href'] for a in q('a')])
+                data = self.get_data(q)
+                if not len(data):
+                    LOGGER.info('No products found in url  %s',response.url)
+                else:
+                    LOGGER.info('PRODUCT_PAGE : %s',response.url)
+                    data.append({'url': response.url})
+                    yield from self.save(data)
                 for url in urls:
                     normalized = urllib.parse.urljoin(response.url, url)
                     defragmented, frag = urllib.parse.urldefrag(normalized)
@@ -284,6 +295,7 @@ class Crawler:
 
     @asyncio.coroutine
     def crawl(self):
+        self.redis_queue = yield from asyncio_redis.Pool.create(host='127.0.0.1', port=6379, poolsize=10)
         """Run the crawler until all finished."""
         LOGGER.info('Starting crawl...')
         workers = [asyncio.Task(self.work(), loop=self.loop)
@@ -293,3 +305,4 @@ class Crawler:
         self.t1 = time.time()
         for w in workers:
             w.cancel()
+        self.redis_queue.close()

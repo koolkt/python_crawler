@@ -82,7 +82,7 @@ def main():
 
     #roots = {fix_url(root) for root in args.roots}
     r = redis.StrictRedis(host='localhost', port=6379, db=0)
-    data = r.blpop('queue:test')
+    data = r.blpop('queue:urls_to_crawl')
     data = json.loads(data[1].decode('utf-8'))
     roots = {fix_url(data['url'])}
     selectors = data['selectors']
@@ -92,7 +92,7 @@ def main():
                                strict=args.strict,
                                max_redirect=args.max_redirect,
                                max_tries=args.max_tries,
-                               max_tasks= 1, #args.max_tasks,
+                               max_tasks= 5, #args.max_tasks,
                                )
     try:
         loop.run_until_complete(crawler.crawl())  # Crawler gonna crawl.
