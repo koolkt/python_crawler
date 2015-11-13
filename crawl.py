@@ -101,7 +101,7 @@ def main():
         sys.stderr.flush()
         print('\nInterrupted\n')
     finally:
-        reporting.report(crawler)
+        #reporting.report(crawler) ########## REPORTING
         crawler.close()
 
         # next two lines are required for actual aiohttp resource cleanup

@@ -63,7 +63,6 @@ class Crawler:
         self.root_domains = set()
         self.css_selectors = css_selectors
         self.redis_queue = None
-        self.saved_products = set()
         for root in roots:
             parts = urllib.parse.urlparse(root)
             host, port = urllib.parse.splitport(parts.netloc)
@@ -84,7 +83,14 @@ class Crawler:
 
     def close(self):
         """Close resources."""
+        yield from self.q.join()
+        data = json.dumps(self.q)
+        self.redis_queue.set(self.seed+':saved_todo_urls', data)
+        print("closing resources") # DEBUG**********************************
+        self.redis_queue.close()
+        self.q.task_done()
         self.session.close()
+        self.q.task_done()
 
     def host_okay(self, host):
         """Check if a host should be crawled.
@@ -141,15 +147,17 @@ class Crawler:
                 
     @asyncio.coroutine
     def save(self, data):
-        if data.get('image_css', 'err')[0] in self.saved_products:
+        duplicate = yield from self.redis_queue.sismember(self.seed+':prod_images',
+                                                          data.get('image_css', 'err')[0])
+        if duplicate:
+            LOGGER.info('Product duplicate %s', data.get('url', None))
             yield from self.redis_queue.sadd(self.seed+':duplicate_product_urls',
                                               [data.get('url', None)])
-            LOGGER.info('Product duplicate %s', data.get('url', None))
             return
         json_data = json.dumps(data)
-        self.saved_products.add(data.get('image_css', 'err')[0])
-        yield from self.redis_queue.rpush(self.seed+':product_info',
-                                          [json_data])
+        LOGGER.debug('Adding product: %s', data.get('url', None))
+        yield from self.redis_queue.sadd(self.seed+':prod_images', [data.get('image_css', 'err')[0]])
+        yield from self.redis_queue.rpush(self.seed+':product_info', [json_data])
         
     @asyncio.coroutine
     def parse_links(self, response):
@@ -167,26 +175,29 @@ class Crawler:
             if content_type in ('text/html', 'application/xml'):
                 text = yield from response.text()
                 q = pq(text)
-                urls = set([a.attrib['href'] for a in q('a')])
-                data = self.get_data(q)
-                if not len(data):
-                    LOGGER.info('No products found in url  %s',response.url)
-                    yield from self.redis_queue.sadd(self.seed+':no_product_urls',
+                urls = set([a.attrib['href'] for a in q('a') if a.attrib.get('href', None)])
+                is_not_product = yield from self.redis_queue.sismember(self.seed+':no_product_urls',
+                                                                       response.url)
+                if (not is_not_product):
+                    data = self.get_data(q)
+                    if not len(data):
+                        # No products found
+                        yield from self.redis_queue.sadd(self.seed+':no_product_urls',
+                                                         [response.url])
+                    else:
+                        # Add to product_urls>add url asociated with info>send to redis
+                        yield from self.redis_queue.sadd(self.seed+':product_urls',
                                                      [response.url])
-                else:
-                    LOGGER.debug('PRODUCT_PAGE : %s',response.url)
-                    yield from self.redis_queue.sadd(self.seed+':product_urls',
-                                                     [response.url])
-                    data.update({'url': response.url})
-                    yield from self.save(data)
+                        data.update({'url': response.url})
+                        yield from self.save(data)
                 for url in urls:
                     normalized = urllib.parse.urljoin(response.url, url)
                     defragmented, frag = urllib.parse.urldefrag(normalized)
                     if self.url_allowed(defragmented):
                         links.add(defragmented)
-                if urls:
-                    LOGGER.debug('got %r distinct urls from %r total: %i new links: %i visited: %i',
-                                len(urls), response.url, len(links), len(links - self.seen_urls), len(self.seen_urls))
+                #if urls:
+                    #LOGGER.info('got %r distinct urls from %r total: %i new links: %i visited: %i',
+                                #len(urls), response.url, len(links), len(links - self.seen_urls), len(self.seen_urls))
                 
         stat = FetchStatistic(
             url=response.url,
@@ -252,7 +263,7 @@ class Crawler:
                 if next_url in self.seen_urls:
                     return
                 if max_redirect > 0:
-                    LOGGER.info('redirect to %r from %r', next_url, url)
+                    LOGGER.info('redirect to %r from %r max_redir: %i', next_url, url, max_redirect - 1)
                     self.add_url(next_url, max_redirect - 1)
                 else:
                     LOGGER.error('redirect limit reached for %r from %r',
@@ -283,11 +294,11 @@ class Crawler:
             return False
         parts = urllib.parse.urlparse(url)
         if parts.scheme not in ('http', 'https'):
-            LOGGER.debug('skipping non-http scheme in %r', url)
+            #LOGGER.debug('skipping non-http scheme in %r', url)
             return False
         host, port = urllib.parse.splitport(parts.netloc)
         if not self.host_okay(host):
-            LOGGER.debug('skipping non-root host in %r', url)
+            #LOGGER.debug('skipping non-root host in %r', url)
             return False
         return True
 
@@ -295,13 +306,14 @@ class Crawler:
         """Add a URL to the queue if not seen before."""
         if max_redirect is None:
             max_redirect = self.max_redirect
-        LOGGER.debug('adding %r %r', url, max_redirect)
+        #LOGGER.debug('adding %r %r', url, max_redirect) ################" ADDING URL TO FRONTIER
         self.seen_urls.add(url)
         self.q.put_nowait((url, max_redirect))
 
     @asyncio.coroutine
     def crawl(self):
-        self.redis_queue = yield from asyncio_redis.Pool.create(host='127.0.0.1', port=6379, poolsize=10)
+        self.redis_queue = yield from asyncio_redis.Connection.create(host='localhost', port=6379)
+
         """Run the crawler until all finished."""
         LOGGER.info('Starting crawl...')
         workers = [asyncio.Task(self.work(), loop=self.loop)

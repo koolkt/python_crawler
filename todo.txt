@@ -1,0 +1,1 @@
+add the frontier queue on redis and handle gracefully errors. use redis data structure to check for duplicate products instead of python dict
