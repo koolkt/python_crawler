@@ -69,13 +69,13 @@ class Crawler(object):
 
     def close(self):
         """Close resources."""
-        yield from self.q.join()
+        LOGGER.debug("closing resources")
+        #yield from self.q.join()
         data = json.dumps(self.q)
         yield from self.redis_queue.set(self.seed+':saved_todo_urls', data)
-        LOGGER.debug("closing resources")
         yield from self.redis_queue.close()
         self.session.close()
-        self.q.task_done()
+        #self.q.task_done()
 
     @asyncio.coroutine
     def parse_links(self, web_page_html):
@@ -188,4 +188,3 @@ class Crawler(object):
         self.t1 = time.time()
         for w in workers:
             w.cancel()
-        self.redis_queue.close()
