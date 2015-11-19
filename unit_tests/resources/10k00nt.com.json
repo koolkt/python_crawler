@@ -1,0 +1,25 @@
+{
+  "selectors": [
+    {
+      "breadcrumb_css": [
+        ".breadcrumb .navigation_end  a"
+      ]
+    },
+    {
+      "image_css": [
+        "#pb-right-column #image-block #bigpic"
+      ]
+    },
+    {
+      "nom_css": [
+        "#center_column #primary_block h2"
+      ]
+    },
+    {
+      "prix_css": [
+        ".price .our_price_display #our_price_display"
+      ]
+    }
+  ],
+  "url": "http://www.10k00nt.com/blague-a-tabac/1861-blague-a-tabac-en-cuir-facon-python.html"
+}
