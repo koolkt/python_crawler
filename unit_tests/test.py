@@ -6,9 +6,12 @@ import socket
 import unittest
 
 from aiohttp import ClientError, web
-
-import crawling
-
+import sys
+import os
+sys.path.append(os.path.dirname(__file__)+'../app')
+print(os.path.dirname(__file__)+'/../app')
+import app.crawling as crawling
+import app.verify as verify
 
 @contextmanager
 def capture_logging():
@@ -156,8 +159,8 @@ class TestCrawler(unittest.TestCase):
     def test_strict_host_checking(self):
         crawler = crawling.Crawler(['http://example.com'], loop=self.loop)
         self.addCleanup(crawler.close)
-        self.assertTrue(crawler.url_allowed("http://www.example.com"))
-        self.assertFalse(crawler.url_allowed("http://foo.example.com"))
+        self.assertTrue(verify.url_allowed("http://www.example.com"))
+        self.assertFalse(verify.url_allowed("http://foo.example.com"))
 
     def test_lenient_host_checking(self):
         crawler = crawling.Crawler(['http://example.com'], strict=False,

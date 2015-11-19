@@ -29,13 +29,13 @@ class Crawler(object):
     URLs seen, and 'done' is a list of FetchStatistics.
     """
     def __init__(self, roots,
-                 css_selectors,
+                 css_selectors=None,
                  exclude=None, strict=True,  # What to crawl.
                  max_redirect=10, max_tries=4,  # Per-url limits.
                  max_tasks=5, *, loop=None):
         self.loop = loop or asyncio.get_event_loop()
         self.roots = roots
-        self.seed = [clean(r) for r in roots.items()][0] # For now we only accept one root
+        #self.seed = [clean(r) for r in roots][0] # For now we only accept one root
         self.exclude = exclude
         self.strict = strict
         self.max_redirect = max_redirect
@@ -55,6 +55,7 @@ class Crawler(object):
                 continue
             if re.match(r'\A[\d\.]*\Z', host):
                 self.root_domains.add(host)
+                self.seed = host
             else:
                 host = host.lower()
                 if self.strict:
@@ -166,7 +167,7 @@ class Crawler(object):
         """Add a URL to the queue if not seen before."""
         if max_redirect is None:
             max_redirect = self.max_redirect
-        if hasattr(urls, '__iter__'):
+        if not isinstance(urls, str):
             for link in urls.difference(self.seen_urls):
                 self.q.put_nowait((link, max_redirect))
             self.seen_urls.update(links)
