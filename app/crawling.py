@@ -63,7 +63,7 @@ class Crawler(object):
                 else:
                     self.root_domains.add(lenient_host(host))
         for root in roots:
-            self.add_url(root)
+            self.add_urls(root)
         self.t0 = time.time()
         self.t1 = None
 
@@ -97,7 +97,7 @@ class Crawler(object):
                      for link in links.difference(self.seen_urls)]
         return new_links
 
-    def handle_redirect(self, response):
+    def handle_redirect(self, response, url, max_redirect):
         location = response.headers['location']
         next_url = urllib.parse.urljoin(url, location)
         self.record_statistic(url=url,
@@ -128,7 +128,7 @@ class Crawler(object):
                     LOGGER.debug('try %r for %r success', tries, url)
                 break
             except aiohttp.ClientError as client_error:
-                LOGGER.debug('try %r for %r raised %r', tries, url, client_error)
+                LOGGER.error('try %r for %r raised %r', tries, url, client_error)
                 exception = client_error
             tries += 1
         else:
@@ -139,8 +139,8 @@ class Crawler(object):
             return
         try:
             if is_redirect(response):
-                redirect_already_seen = self.handle_redirect(response)
-                if (redirect_already_seen()):
+                redirect_already_seen = self.handle_redirect(response, url, max_redirect)
+                if (redirect_already_seen):
                     return None
             elif is_html(response):
                 web_page = yield from response.text()
@@ -158,20 +158,22 @@ class Crawler(object):
                 web_page = yield from self.fetch(url, max_redirect)
                 if web_page:
                     new_links = yield from self.parse_links(web_page)
-                    self.seen_urls.update(new_links)
-                    for new_link in new_links:
-                        self.q.put_nowait(new_link)
+                    add_urls(new_links)
                 self.q.task_done()
         except asyncio.CancelledError:
             pass
 
-    def add_url(self, url, max_redirect=None):
+    def add_urls(self, urls, max_redirect=None):
         """Add a URL to the queue if not seen before."""
         if max_redirect is None:
             max_redirect = self.max_redirect
-        LOGGER.debug('adding %r to frontier with max redirect of %r', url, max_redirect)
-        self.seen_urls.add(url)
-        self.q.put_nowait((url, max_redirect))
+        if hasattr(urls, '__iter__'):
+            for link in urls.difference(self.seen_urls):
+                self.q.put_nowait((link, max_redirect))
+            self.seen_urls.update(links)
+        elif urls not in self.seen_urls: 
+            self.q.put_nowait((urls, max_redirect))
+            self.seen_urls.add(urls)
 
     @asyncio.coroutine
     def crawl(self):
