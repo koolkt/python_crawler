@@ -14,7 +14,6 @@ import json
 
 LOGGER = logging.getLogger(__name__)
 
-
 def lenient_host(host):
     parts = host.split('.')[-2:]
     return ''.join(parts)
@@ -73,9 +72,8 @@ class Crawler(object):
         yield from self.q.join()
         data = json.dumps(self.q)
         yield from self.redis_queue.set(self.seed+':saved_todo_urls', data)
-        print("closing resources") # DEBUG**********************************
+        LOGGER.debug("closing resources")
         yield from self.redis_queue.close()
-        self.q.task_done()
         self.session.close()
         self.q.task_done()
 
@@ -142,7 +140,7 @@ class Crawler(object):
         try:
             if is_redirect(response):
                 redirect_already_seen = self.handle_redirect(response)
-                if (redirect_already_seen):
+                if (redirect_already_seen()):
                     return None
             elif is_html(response):
                 web_page = yield from response.text()
