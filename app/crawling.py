@@ -29,14 +29,13 @@ class Crawler(object):
     URLs seen, and 'done' is a list of FetchStatistics.
     """
     def __init__(self, roots,
-                 seed,
                  css_selectors,
                  exclude=None, strict=True,  # What to crawl.
                  max_redirect=10, max_tries=4,  # Per-url limits.
-                 max_tasks=10, *, loop=None):
+                 max_tasks=5, *, loop=None):
         self.loop = loop or asyncio.get_event_loop()
         self.roots = roots
-        self.seed = seed
+        self.seed = [clean(r) for r in roots.items()][0] # For now we only accept one root
         self.exclude = exclude
         self.strict = strict
         self.max_redirect = max_redirect

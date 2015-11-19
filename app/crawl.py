@@ -63,10 +63,6 @@ def main():
     Parse arguments, set up event loop, run crawler, print report.
     """
     args = ARGS.parse_args()
-    if not args.roots:
-        print('Use --help for command line help')
-        return
-
     levels = [logging.ERROR, logging.WARN, logging.INFO, logging.DEBUG]
     logging.basicConfig(level=levels[min(args.level, len(levels)-1)])
 
@@ -80,21 +76,22 @@ def main():
     else:
         loop = asyncio.get_event_loop()
 
-    #roots = {fix_url(root) for root in args.roots}
-    r = redis.StrictRedis(host='localhost', port=6379, db=0)
-    data = r.blpop('queue:urls_to_crawl')
-    data = json.loads(data[1].decode('utf-8'))
-    roots = {fix_url(data['url'])}
-    selectors = data['selectors']
+    if not args.roots:
+        r = redis.StrictRedis(host='localhost', port=6379, db=0)
+        data = r.blpop('queue:urls_to_crawl')
+        data = json.loads(data[1]self.decode('utf-8'))
+        roots = {fix_url(data['url'])}
+        selectors = data['selectors']
+    else:
+        roots = {fix_url(root) for root in args.roots}
+        selectors = None
     crawler = crawling.Crawler(roots,
-                               seed = fix_url(data['url']),
-                               css_selectors = selectors,
+                               css_selectors=selectors,
                                exclude=args.exclude,
                                strict=args.strict,
                                max_redirect=args.max_redirect,
                                max_tries=args.max_tries,
-                               max_tasks= 5, #args.max_tasks,
-                               )
+                               max_tasks=args.max_tasks)
     try:
         loop.run_until_complete(crawler.crawl())  # Crawler gonna crawl.
     except KeyboardInterrupt:
