@@ -11,7 +11,10 @@ from asyncio import Queue
 from pyquery import PyQuery as pq
 import asyncio_redis
 import json
-import app.verify as verify
+try:
+    import app.verify as verify
+except:
+    import verify
 
 LOGGER = logging.getLogger(__name__)
 
@@ -127,7 +130,7 @@ class Crawler(object):
         for url in urls:
             normalized = urllib.parse.urljoin(_url, url)
             defragmented, frag = urllib.parse.urldefrag(normalized)
-            if verify.url_allowed(defragmented,self.root_domains):
+            if verify.url_allowed(defragmented,self.root_domains,exclude=self.exclude):
                 links.add(defragmented)
         if urls:
             LOGGER.info('got %r distinct urls from %r total: %i new links: %i visited: %i',

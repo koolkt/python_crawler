@@ -79,7 +79,7 @@ def main():
     if not args.roots:
         r = redis.StrictRedis(host='localhost', port=6379, db=0)
         data = r.blpop('queue:urls_to_crawl')
-        data = json.loads(data[1]self.decode('utf-8'))
+        data = json.loads(data[1].decode('utf-8'))
         roots = {fix_url(data['url'])}
         selectors = data['selectors']
     else:
@@ -98,7 +98,7 @@ def main():
         sys.stderr.flush()
         print('\nInterrupted\n')
     finally:
-        #reporting.report(crawler) ########## REPORTING
+        reporting.report(crawler) ########## REPORTING
         crawler.close()
 
         # next two lines are required for actual aiohttp resource cleanup
