@@ -81,6 +81,7 @@ class TestBaseCrawling(unittest.TestCase):
         return self.app_url + url
 
     def assertDoneCount(self, n):
+        print(self.crawler.done)
         self.assertEqual(n, len(self.crawler.done),
                          "Expected {} URLs done, got {}".format(
                              n, len(self.crawler.done)))

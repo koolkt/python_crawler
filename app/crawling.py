@@ -75,7 +75,7 @@ class Crawler(object):
                 continue
             if re.match(r'\A[\d\.]*\Z', host):
                 self.root_domains.add(host)
-                self.seed = host
+                self.seed = host # For now we expect only one root
             else:
                 host = host.lower()
                 if self.strict:
@@ -97,13 +97,14 @@ class Crawler(object):
                          num_new_urls=0):
         """Record the FetchStatistic for completed / failed URL."""
         fetch_statistic = FetchStatistic(url=url,
-                                         next_url=None,
-                                         status=None,
+                                         next_url=next_url,
+                                         status=status,
                                          exception=exception,
-                                         content_type=None,
-                                         encoding=None,
-                                         num_urls=0,
-                                         num_new_urls=0)
+                                         content_type=content_type,
+                                         encoding=encoding,
+                                         num_urls=num_urls,
+                                         num_new_urls=num_new_urls)
+        print("*********** Done: %s **************" % (url))
         self.done.append(fetch_statistic)
 
     def close(self):
@@ -133,8 +134,7 @@ class Crawler(object):
             LOGGER.info('got %r distinct urls from %r total: %i new links: %i visited: %i',
                         len(urls), _url, len(links),
                         len(links - self.seen_urls), len(self.seen_urls))
-        new_links = [(link, self.max_redirect) 
-                     for link in links.difference(self.seen_urls)]
+        new_links = [link for link in links.difference(self.seen_urls)]
 
         self.record_statistic(
             url=_url,
@@ -162,7 +162,7 @@ class Crawler(object):
         return
 
     @asyncio.coroutine
-    def fetch(self, url, max_redirect):
+    def fetch(self, url: str, max_redirect: int) -> tuple: 
         """Fetch one URL."""
         tries = 0
         web_page = None
@@ -186,7 +186,7 @@ class Crawler(object):
             LOGGER.error('%r failed after %r tries',
                          url, self.max_tries)
             self.record_statistic(url=url, exception=exception)
-            return
+            return (web_page, _url, _content_type, _encoding)
         try:
             _url, _content_type, encoding = get_content_type_and_encoding(response)
             if is_redirect(response):
@@ -194,11 +194,26 @@ class Crawler(object):
                 web_page = 'redirect'
             elif response.status == 200 and _content_type in ('text/html', 'application/xml'):
                 web_page = yield from response.text()
+            else:
+                self.record_statistic(url=response.url, status=response.status)
         except Exception as e:
             print(e)
         finally:
             yield from response.release()
             return (web_page, _url, _content_type, _encoding)
+
+    def add_urls(self, urls, max_redirect=None):
+        """Add a URL to the queue if not seen before."""
+        if max_redirect is None:
+            max_redirect = self.max_redirect
+        if not isinstance(urls, str):
+            urls = set(urls)
+            for link in urls.difference(self.seen_urls):
+                self.q.put_nowait((link, max_redirect))
+            self.seen_urls.update(urls)
+        elif urls not in self.seen_urls: 
+            self.q.put_nowait((urls, max_redirect))
+            self.seen_urls.add(urls)
 
     @asyncio.coroutine
     def work(self):
@@ -210,22 +225,10 @@ class Crawler(object):
                 web_page,url,content_type,encoding = yield from self.fetch(url, max_redirect)
                 if web_page and web_page != 'redirect':
                     new_links = yield from self.parse_links(web_page,url,content_type,encoding)
-                    add_urls(new_links)
+                    self.add_urls(new_links)
                 self.q.task_done()
         except asyncio.CancelledError:
             pass
-
-    def add_urls(self, urls, max_redirect=None):
-        """Add a URL to the queue if not seen before."""
-        if max_redirect is None:
-            max_redirect = self.max_redirect
-        if not isinstance(urls, str):
-            for link in urls.difference(self.seen_urls):
-                self.q.put_nowait((link, max_redirect))
-            self.seen_urls.update(links)
-        elif urls not in self.seen_urls: 
-            self.q.put_nowait((urls, max_redirect))
-            self.seen_urls.add(urls)
 
     @asyncio.coroutine
     def crawl(self):
