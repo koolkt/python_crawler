@@ -11,6 +11,7 @@ from asyncio import Queue
 from pyquery import PyQuery as pq
 import asyncio_redis
 import json
+import app.verify as verify
 
 LOGGER = logging.getLogger(__name__)
 
@@ -18,9 +19,28 @@ def lenient_host(host):
     parts = host.split('.')[-2:]
     return ''.join(parts)
 
+FetchStatistic = namedtuple('FetchStatistic',
+                            ['url',
+                             'next_url',
+                             'status',
+                             'exception',
+                             'content_type',
+                             'encoding',
+                             'num_urls',
+                             'num_new_urls'])
 
 def is_redirect(response):
     return response.status in (300, 301, 302, 303, 307)
+
+def get_content_type_and_encoding(response):
+    _content_type = None
+    _url = response.url
+    _content_type = response.headers.get('content-type')
+    pdict = {}
+    if _content_type:
+        _content_type, pdict = cgi.parse_header(_content_type)
+    _encoding = pdict.get('charset', 'utf-8')
+    return _url, _content_type, _encoding
 
 class Crawler(object):
     """Crawl a set of URLs.
@@ -67,34 +87,61 @@ class Crawler(object):
         self.t0 = time.time()
         self.t1 = None
 
+    def record_statistic(self, url=None,
+                         next_url=None,
+                         status=None,
+                         exception=None,
+                         content_type=None,
+                         encoding=None,
+                         num_urls=0,
+                         num_new_urls=0):
+        """Record the FetchStatistic for completed / failed URL."""
+        fetch_statistic = FetchStatistic(url=url,
+                                         next_url=None,
+                                         status=None,
+                                         exception=exception,
+                                         content_type=None,
+                                         encoding=None,
+                                         num_urls=0,
+                                         num_new_urls=0)
+        self.done.append(fetch_statistic)
+
     def close(self):
         """Close resources."""
         LOGGER.debug("closing resources")
         #yield from self.q.join()
-        data = json.dumps(self.q)
-        yield from self.redis_queue.set(self.seed+':saved_todo_urls', data)
-        yield from self.redis_queue.close()
+        #data = json.dumps(self.q)
+        #yield from self.redis_queue.set(self.seed+':saved_todo_urls', data)
+        if (self.redis_queue):
+            self.redis_queue.close()
         self.session.close()
         #self.q.task_done()
 
     @asyncio.coroutine
-    def parse_links(self, web_page_html):
+    def parse_links(self, web_page_html, _url, _content_type, _encoding):
         """Return a FetchStatistic and list of links."""
         links = set()
         pquery = pq(web_page_html)
         urls = set([a.attrib['href'] for a in pquery('a') 
                     if a.attrib.get('href', None)])
         for url in urls:
-            normalized = urllib.parse.urljoin(response.url, url)
+            normalized = urllib.parse.urljoin(_url, url)
             defragmented, frag = urllib.parse.urldefrag(normalized)
-            if self.url_allowed(defragmented):
+            if verify.url_allowed(defragmented,self.root_domains):
                 links.add(defragmented)
         if urls:
             LOGGER.info('got %r distinct urls from %r total: %i new links: %i visited: %i',
-                        len(urls), response.url, len(links), 
+                        len(urls), _url, len(links),
                         len(links - self.seen_urls), len(self.seen_urls))
         new_links = [(link, self.max_redirect) 
                      for link in links.difference(self.seen_urls)]
+
+        self.record_statistic(
+            url=_url,
+            content_type=_content_type,
+            encoding=_encoding,
+            num_urls=len(links),
+            num_new_urls=len(links - self.seen_urls))
         return new_links
 
     def handle_redirect(self, response, url, max_redirect):
@@ -104,15 +151,15 @@ class Crawler(object):
                               next_url=next_url,
                               status=response.status)
         if next_url in self.seen_urls:
-            return True
+            return
         if max_redirect > 0:
             LOGGER.info('redirect to %r from %r max_redir: %i', 
                         next_url, url, max_redirect - 1)
-            self.add_url(next_url, max_redirect - 1)
+            self.add_urls(next_url, max_redirect - 1)
         else:
             LOGGER.error('redirect limit reached for %r from %r',
                          next_url, url)
-        return False
+        return
 
     @asyncio.coroutine
     def fetch(self, url, max_redirect):
@@ -120,6 +167,9 @@ class Crawler(object):
         tries = 0
         web_page = None
         exception = None
+        _url = None
+        _encoding = None
+        _content_type = None
         while tries < self.max_tries:
             try:
                 response = yield from self.session.get(
@@ -138,15 +188,17 @@ class Crawler(object):
             self.record_statistic(url=url, exception=exception)
             return
         try:
+            _url, _content_type, encoding = get_content_type_and_encoding(response)
             if is_redirect(response):
-                redirect_already_seen = self.handle_redirect(response, url, max_redirect)
-                if (redirect_already_seen):
-                    return None
-            elif is_html(response):
+                self.handle_redirect(response, url, max_redirect)
+                web_page = 'redirect'
+            elif response.status == 200 and _content_type in ('text/html', 'application/xml'):
                 web_page = yield from response.text()
+        except Exception as e:
+            print(e)
         finally:
             yield from response.release()
-            return web_page
+            return (web_page, _url, _content_type, _encoding)
 
     @asyncio.coroutine
     def work(self):
@@ -155,9 +207,9 @@ class Crawler(object):
             while True:
                 url, max_redirect = yield from self.q.get()
                 assert url in self.seen_urls
-                web_page = yield from self.fetch(url, max_redirect)
-                if web_page:
-                    new_links = yield from self.parse_links(web_page)
+                web_page,url,content_type,encoding = yield from self.fetch(url, max_redirect)
+                if web_page and web_page != 'redirect':
+                    new_links = yield from self.parse_links(web_page,url,content_type,encoding)
                     add_urls(new_links)
                 self.q.task_done()
         except asyncio.CancelledError:
@@ -179,7 +231,7 @@ class Crawler(object):
     def crawl(self):
         """Run the crawler until all finished."""
         self.redis_queue = yield from asyncio_redis.Connection.create(
-            host='localhost', port=6379)
+            host='localhost', port=6379, loop=self.loop)
         LOGGER.info('Starting crawl...')
         workers = [asyncio.Task(self.work(), loop=self.loop)
                    for _ in range(self.max_tasks)]
