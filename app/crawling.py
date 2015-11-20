@@ -40,7 +40,7 @@ def get_content_type_and_encoding(response):
     if _content_type:
         _content_type, pdict = cgi.parse_header(_content_type)
     _encoding = pdict.get('charset', 'utf-8')
-    return _url, _content_type, _encoding
+    return (_url, _content_type, _encoding)
 
 class Crawler(object):
     """Crawl a set of URLs.
@@ -104,7 +104,6 @@ class Crawler(object):
                                          encoding=encoding,
                                          num_urls=num_urls,
                                          num_new_urls=num_new_urls)
-        print("*********** Done: %s **************" % (url))
         self.done.append(fetch_statistic)
 
     def close(self):
@@ -188,14 +187,14 @@ class Crawler(object):
             self.record_statistic(url=url, exception=exception)
             return (web_page, _url, _content_type, _encoding)
         try:
-            _url, _content_type, encoding = get_content_type_and_encoding(response)
+            _url, _content_type, _encoding = get_content_type_and_encoding(response)
             if is_redirect(response):
                 self.handle_redirect(response, url, max_redirect)
                 web_page = 'redirect'
             elif response.status == 200 and _content_type in ('text/html', 'application/xml'):
                 web_page = yield from response.text()
             else:
-                self.record_statistic(url=response.url, status=response.status)
+                self.record_statistic(url=response.url, status=response.status, content_type=_content_type, encoding=_encoding)
         except Exception as e:
             print(e)
         finally:
