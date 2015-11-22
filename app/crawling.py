@@ -11,10 +11,10 @@ from asyncio import Queue
 from pyquery import PyQuery as pq
 import asyncio_redis
 import json
-try:
-    import app.verify as verify
-except:
-    import verify
+import sys
+import os
+sys.path.append(os.path.dirname(__file__)+'../app')
+import verify
 
 LOGGER = logging.getLogger(__name__)
 
