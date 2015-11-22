@@ -1,1 +1,0 @@
-add the frontier queue on redis and handle gracefully errors.
