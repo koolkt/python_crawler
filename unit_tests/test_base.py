@@ -9,8 +9,12 @@ import logging
 import socket
 import unittest
 from aiohttp import ClientError, web
-import app.crawling as crawling
-import app.verify as verify
+try:
+    import app.crawling as crawling
+    import app.verify as verify
+except:
+    import crawling
+    import verify
 
 @contextmanager
 def capture_logging():

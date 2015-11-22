@@ -1,15 +1,15 @@
 PYTHON3=python
 test:
-	$(PYTHON3) crawl.py -q what-if.xkcd.com
+	$(PYTHON3) app/crawl.py -q what-if.xkcd.com
 
 verbose:
-	$(PYTHON3) crawl.py what-if.xkcd.com
+	$(PYTHON3) app/crawl.py what-if.xkcd.com
 
 xkcd:
-	$(PYTHON3) crawl.py -q xkcd.com
+	$(PYTHON3) app/crawl.py -q xkcd.com
 
 dropbox:
-	$(PYTHON3) crawl.py -q dropbox.com
+	$(PYTHON3) app/crawl.py -q dropbox.com
 
 pep8:
 	pep8 *.py

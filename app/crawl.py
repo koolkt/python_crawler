@@ -84,9 +84,7 @@ def main():
         selectors = data['selectors']
     else:
         roots = {fix_url(root) for root in args.roots}
-        selectors = None
     crawler = crawling.Crawler(roots,
-                               css_selectors=selectors,
                                exclude=args.exclude,
                                strict=args.strict,
                                max_redirect=args.max_redirect,

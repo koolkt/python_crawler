@@ -27,6 +27,7 @@ FetchStatistic = namedtuple('FetchStatistic',
                              'next_url',
                              'status',
                              'exception',
+                             'size',
                              'content_type',
                              'encoding',
                              'num_urls',
@@ -52,13 +53,11 @@ class Crawler(object):
     URLs seen, and 'done' is a list of FetchStatistics.
     """
     def __init__(self, roots,
-                 css_selectors=None,
                  exclude=None, strict=True,  # What to crawl.
                  max_redirect=10, max_tries=4,  # Per-url limits.
-                 max_tasks=5, *, loop=None):
+                 max_tasks=10, *, loop=None):
         self.loop = loop or asyncio.get_event_loop()
         self.roots = roots
-        #self.seed = [clean(r) for r in roots][0] # For now we only accept one root
         self.exclude = exclude
         self.strict = strict
         self.max_redirect = max_redirect
@@ -69,8 +68,6 @@ class Crawler(object):
         self.done = []
         self.session = aiohttp.ClientSession(loop=self.loop)
         self.root_domains = set()
-        self.css_selectors = css_selectors
-        self.redis_queue = None
         for root in roots:
             parts = urllib.parse.urlparse(root)
             host, port = urllib.parse.splitport(parts.netloc)
@@ -78,7 +75,6 @@ class Crawler(object):
                 continue
             if re.match(r'\A[\d\.]*\Z', host):
                 self.root_domains.add(host)
-                self.seed = host # For now we expect only one root
             else:
                 host = host.lower()
                 if self.strict:
@@ -102,6 +98,7 @@ class Crawler(object):
         fetch_statistic = FetchStatistic(url=url,
                                          next_url=next_url,
                                          status=status,
+                                         size=0,
                                          exception=exception,
                                          content_type=content_type,
                                          encoding=encoding,
@@ -112,17 +109,11 @@ class Crawler(object):
     def close(self):
         """Close resources."""
         LOGGER.debug("closing resources")
-        #yield from self.q.join()
-        #data = json.dumps(self.q)
-        #yield from self.redis_queue.set(self.seed+':saved_todo_urls', data)
-        if (self.redis_queue):
-            self.redis_queue.close()
         self.session.close()
-        #self.q.task_done()
 
     @asyncio.coroutine
     def parse_links(self, web_page_html, _url, _content_type, _encoding):
-        """Return a FetchStatistic and list of links."""
+        """Return a list of links."""
         links = set()
         pquery = pq(web_page_html)
         urls = set([a.attrib['href'] for a in pquery('a') 
@@ -197,12 +188,13 @@ class Crawler(object):
             elif response.status == 200 and _content_type in ('text/html', 'application/xml'):
                 web_page = yield from response.text()
             else:
-                self.record_statistic(url=response.url, status=response.status, content_type=_content_type, encoding=_encoding)
+                self.record_statistic(url=response.url, status=response.status, 
+                                      content_type=_content_type, encoding=_encoding)
         except Exception as e:
             print(e)
         finally:
             yield from response.release()
-            return (web_page, _url, _content_type, _encoding)
+        return (web_page, _url, _content_type, _encoding)
 
     def add_urls(self, urls, max_redirect=None):
         """Add a URL to the queue if not seen before."""
@@ -235,8 +227,6 @@ class Crawler(object):
     @asyncio.coroutine
     def crawl(self):
         """Run the crawler until all finished."""
-        self.redis_queue = yield from asyncio_redis.Connection.create(
-            host='localhost', port=6379, loop=self.loop)
         LOGGER.info('Starting crawl...')
         workers = [asyncio.Task(self.work(), loop=self.loop)
                    for _ in range(self.max_tasks)]
