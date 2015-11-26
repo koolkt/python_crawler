@@ -5,16 +5,15 @@ import logging
 import re
 import time
 import urllib.parse
-from bs4 import BeautifulSoup
 import aiohttp
 from asyncio import Queue
-from pyquery import PyQuery as pq
 import asyncio_redis
 import json
 import sys
 import os
 sys.path.append(os.path.dirname(__file__)+'../app')
-import verify
+import app.verify as verify
+from lxml import html
 
 LOGGER = logging.getLogger(__name__)
 
@@ -54,7 +53,7 @@ class Crawler(object):
     """
     def __init__(self, roots,
                  exclude=None, strict=True,  # What to crawl.
-                 max_redirect=10, max_tries=4,  # Per-url limits.
+                 max_redirect=4, max_tries=4,  # Per-url limits.
                  max_tasks=10, *, loop=None):
         self.loop = loop or asyncio.get_event_loop()
         self.roots = roots
@@ -112,25 +111,24 @@ class Crawler(object):
         self.session.close()
 
     @asyncio.coroutine
-    def parse_links(self, web_page_html, _url, _content_type, _encoding):
+    def parse_links(self, web_page_html, base_url, _content_type, _encoding):
         """Return a list of links."""
         links = set()
-        pquery = pq(web_page_html)
-        urls = set([a.attrib['href'] for a in pquery('a') 
-                    if a.attrib.get('href', None)])
+        tree = html.fromstring(web_page_html)
+        tree.make_links_absolute(base_url)
+        urls = [link[2] for link in tree.iterlinks()]
         for url in urls:
-            normalized = urllib.parse.urljoin(_url, url)
-            defragmented, frag = urllib.parse.urldefrag(normalized)
+            defragmented, frag = urllib.parse.urldefrag(url)
             if verify.url_allowed(defragmented,self.root_domains,exclude=self.exclude):
                 links.add(defragmented)
         if urls:
-            LOGGER.info('got %r distinct urls from %r total: %i new links: %i visited: %i',
-                        len(urls), _url, len(links),
+            LOGGER.info('got %r urls from %r new links: %i visited: %i',
+                        len(urls), base_url,
                         len(links - self.seen_urls), len(self.seen_urls))
         new_links = [link for link in links.difference(self.seen_urls)]
 
         self.record_statistic(
-            url=_url,
+            url=base_url,
             content_type=_content_type,
             encoding=_encoding,
             num_urls=len(links),
@@ -215,7 +213,7 @@ class Crawler(object):
         try:
             while True:
                 url, max_redirect = yield from self.q.get()
-                assert url in self.seen_urls
+                #assert url in self.seen_urls
                 web_page,url,content_type,encoding = yield from self.fetch(url, max_redirect)
                 if web_page and web_page != 'redirect':
                     new_links = yield from self.parse_links(web_page,url,content_type,encoding)

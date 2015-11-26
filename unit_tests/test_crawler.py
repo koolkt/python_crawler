@@ -1,7 +1,6 @@
 import sys
 import os
 import time
-sys.path.append(os.path.dirname(__file__)+'../app')
 import asyncio
 from contextlib import contextmanager
 import io
@@ -9,12 +8,9 @@ import logging
 import socket
 import unittest
 from aiohttp import ClientError, web
-try:
-    import app.crawling as crawling
-    import app.verify as verify
-except:
-    import crawling
-    import verify
+sys.path.append(os.path.dirname(__file__)+'../app')
+import app.crawling as crawling
+import app.verify as verify
 
 @contextmanager
 def capture_logging():
