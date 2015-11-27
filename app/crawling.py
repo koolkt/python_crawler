@@ -12,7 +12,10 @@ import json
 import sys
 import os
 sys.path.append(os.path.dirname(__file__)+'../app')
-import app.verify as verify
+try:
+    import app.verify as verify
+except:
+    import verify
 from lxml import html
 
 LOGGER = logging.getLogger(__name__)
@@ -51,12 +54,15 @@ class Crawler(object):
     This manages two sets of URLs: 'urls' and 'done'.  'urls' is a set of
     URLs seen, and 'done' is a list of FetchStatistics.
     """
-    def __init__(self, roots,
+    def __init__(self, roots, scraper= None, data_handler=None,
                  exclude=None, strict=True,  # What to crawl.
-                 max_redirect=4, max_tries=4,  # Per-url limits.
-                 max_tasks=10, *, loop=None):
+                 max_redirect=5, max_tries=10,  # Per-url limits.
+                 max_tasks=10, max_connections_per_host=3,*, loop=None):
         self.loop = loop or asyncio.get_event_loop()
         self.roots = roots
+        self.max_connections_per_host = max_connections_per_host
+        self.scraper = scraper
+        self.data_handler = data_handler
         self.exclude = exclude
         self.strict = strict
         self.max_redirect = max_redirect
@@ -105,6 +111,10 @@ class Crawler(object):
                                          num_new_urls=num_new_urls)
         self.done.append(fetch_statistic)
 
+    
+    def extract_data(self,root_url, html):
+        raise NotImplementedError('You need to define a extract_data method!')
+
     def close(self):
         """Close resources."""
         LOGGER.debug("closing resources")
@@ -119,7 +129,7 @@ class Crawler(object):
         urls = [link[2] for link in tree.iterlinks()]
         for url in urls:
             defragmented, frag = urllib.parse.urldefrag(url)
-            if verify.url_allowed(defragmented,self.root_domains,exclude=self.exclude):
+            if verify.url_allowed(defragmented,self.root_domains,exclude=self.exclude): # Select Valid links, testing against regexp and root_domains
                 links.add(defragmented)
         if urls:
             LOGGER.info('got %r urls from %r new links: %i visited: %i',
@@ -153,7 +163,7 @@ class Crawler(object):
         return
 
     @asyncio.coroutine
-    def fetch(self, url: str, max_redirect: int) -> tuple: 
+    def fetch(self, url, max_redirect, sem):
         """Fetch one URL."""
         tries = 0
         web_page = None
@@ -161,14 +171,18 @@ class Crawler(object):
         _url = None
         _encoding = None
         _content_type = None
+        sleep_time = 0
         while tries < self.max_tries:
             try:
-                response = yield from self.session.get(
-                    url, allow_redirects=False)
+                with (yield from sem):
+                    response = yield from asyncio.wait_for(
+                        self.session.get(url, allow_redirects=False), 10,loop=self.loop)
                 if tries > 1:
                     LOGGER.debug('try %r for %r success', tries, url)
                 break
-            except aiohttp.ClientError as client_error:
+            except Exception as client_error:
+                sleep_time += 5
+                yield from asyncio.sleep(sleep_time)
                 LOGGER.error('try %r for %r raised %r', tries, url, client_error)
                 exception = client_error
             tries += 1
@@ -189,7 +203,7 @@ class Crawler(object):
                 self.record_statistic(url=response.url, status=response.status, 
                                       content_type=_content_type, encoding=_encoding)
         except Exception as e:
-            print(e)
+            print('*******error**********')
         finally:
             yield from response.release()
         return (web_page, _url, _content_type, _encoding)
@@ -208,25 +222,30 @@ class Crawler(object):
             self.seen_urls.add(urls)
 
     @asyncio.coroutine
-    def work(self):
+    def work(self,sem):
         """Process queue items forever."""
         try:
             while True:
                 url, max_redirect = yield from self.q.get()
                 #assert url in self.seen_urls
-                web_page,url,content_type,encoding = yield from self.fetch(url, max_redirect)
+                web_page,url,content_type,encoding = yield from self.fetch(url, max_redirect, sem)
                 if web_page and web_page != 'redirect':
                     new_links = yield from self.parse_links(web_page,url,content_type,encoding)
+                    if self.scraper:
+                        data = self.scraper.scrape(url,web_page)
+                    if self.data_handler:
+                        self.data_handler.handle(data)
                     self.add_urls(new_links)
                 self.q.task_done()
-        except asyncio.CancelledError:
-            pass
+        except (asyncio.CancelledError,):
+            print('error')
 
     @asyncio.coroutine
     def crawl(self):
+        sem = asyncio.Semaphore(value=self.max_connections_per_host,loop=self.loop)
         """Run the crawler until all finished."""
         LOGGER.info('Starting crawl...')
-        workers = [asyncio.Task(self.work(), loop=self.loop)
+        workers = [asyncio.Task(self.work(sem), loop=self.loop)
                    for _ in range(self.max_tasks)]
         self.t0 = time.time()
         yield from self.q.join()

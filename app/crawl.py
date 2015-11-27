@@ -13,6 +13,8 @@ import redis
 import crawling
 import reporting
 import json
+import functools
+from scraper import Scraper
 
 ARGS = argparse.ArgumentParser(description="Web crawler")
 ARGS.add_argument(
@@ -49,13 +51,21 @@ ARGS.add_argument(
     '-q', '--quiet', action='store_const', const=0, dest='level',
     default=2, help='Only log errors')
 
-
 def fix_url(url):
     """Prefix a schema-less URL with http://."""
     if '://' not in url:
         url = 'http://' + url
     return url
 
+def init_data(data_list):
+    roots = set()
+    scrape_data = {}
+    json_data_list = map(lambda d: json.loads(d[1].decode('utf-8')), data_list)
+    for d in json_data_list:
+        url = fix_url(d['url'])
+        roots.add(url)
+        scrape_data.update({url:d['selectors']})
+    return (roots, scrape_data)
 
 def main():
     """Main program.
@@ -78,13 +88,18 @@ def main():
 
     if not args.roots:
         r = redis.StrictRedis(host='localhost', port=6379, db=0)
-        data = r.blpop('queue:urls_to_crawl')
-        data = json.loads(data[1].decode('utf-8'))
-        roots = {fix_url(data['url'])}
-        selectors = data['selectors']
+        data = [r.blpop('queue:urls_to_crawl')]
+        # data.append(r.blpop('queue:urls_to_crawl'))
+        # data.append(r.blpop('queue:urls_to_crawl'))
+        roots, scrape_data = init_data(data)
+        s = None#Scraper(scrape_data)
     else:
         roots = {fix_url(root) for root in args.roots}
+        s = None
+
     crawler = crawling.Crawler(roots,
+                               scraper=s,
+                               data_handler=None,
                                exclude=args.exclude,
                                strict=args.strict,
                                max_redirect=args.max_redirect,

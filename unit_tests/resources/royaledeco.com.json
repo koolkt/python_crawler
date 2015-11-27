@@ -1,41 +1,46 @@
 {
-  'marque_css' => 
-      1377780 => string 'a:[itemprop=brand] img' (length=22)
-      1377779 => string '.product-manufacturer a' (length=23)
-  'reference_css' => 
-      1377778 => string '#product_reference .editable' (length=28)
-  'nom_css' => 
-    array (size=11)
-      57830 => string '#productWrap2 h1:eq(0)' (length=22)
-      57829 => string '#primary_block #product-name h1' (length=31)
-      57828 => string '#primary_block #product-name' (length=28)
-      57827 => string '#pb-right-column h1:eq(0)' (length=25)
-      57826 => string '#pb-right-column #product-name' (length=30)
-      57825 => string '#pb-left-column h1:eq(0)' (length=24)
-      57824 => string '#pb-left-column #product-name' (length=29)
-      57823 => string '#primary_block h2:eq(0)' (length=23)
-      57822 => string '#primary_block #product-name h2' (length=31)
-      57821 => string '#pb-right-column h2:eq(0)' (length=25)
-      57820 => string '#pb-left-column h2:eq(0)' (length=24)
-  'image_css' => 
-    array (size=8)
-      57819 => string '#iproductImage  #Imagehoverable img:eq(0)' (length=41)
-      57818 => string '#primary_block #view_full_size img:eq(0)' (length=40)
-      57817 => string '#primary_block #image-block img:eq(0)' (length=37)
-      57816 => string '#primary_block .MagicZoomPlus img:eq(0)' (length=39)
-      57815 => string '#pb-right-column .MagicZoomPlus img:eq(0)' (length=41)
-      57814 => string '#pb-left-column .MagicZoomPlus img:eq(0)' (length=40)
-      57813 => string '#pb-right-column img:eq(0)' (length=26)
-      57812 => string '#pb-left-column img:eq(0)' (length=25)
-  'prix_css' => 
-    array (size=3)
-      57811 => string '#productWrap2 #prix-produit .prix' (length=33)
-      57810 => string '#pb-right-column #our_price_display' (length=35)
-      57809 => string '#pb-left-column #our_price_display' (length=34)
-  'breadcrumb_css' => 
-    array (size=4)
-      57808 => string '.breadcrumbs  a:not(a:first)' (length=28)
-      57807 => string '#breadcrumbs  a:not(a:first)' (length=28)
-      57806 => string '#breadcrumb a:not(a:first)' (length=26)
-      57805 => string '.breadcrumb a:not(a:first)' (length=26)
+  "url": "royaledeco.com",
+  "selectors": {
+    "marque_css": [
+      "a[itemprop=brand] img",
+      ".product-manufacturer a"
+    ],
+    "reference_css": [
+      "#product_reference .editable"
+    ],
+    "nom_css": [
+      "#productWrap2 h1:eq(0)",
+      "#primary_block #product-name h1",
+      "#primary_block #product-name",
+      "#pb-right-column h1:eq(0)",
+      "#pb-right-column #product-name",
+      "#pb-left-column h1:eq(0)",
+      "#pb-left-column #product-name",
+      "#primary_block h2:eq(0)",
+      "#primary_block #product-name h2",
+      "#pb-right-column h2:eq(0)",
+      "#pb-left-column h2:eq(0)"
+    ],
+    "image_css": [
+      "#productImage  #Imagehoverable img:eq(0)",
+      "#primary_block #view_full_size img:eq(0)",
+      "#primary_block #image-block img:eq(0)",
+      "#primary_block .MagicZoomPlus img:eq(0)",
+      "#pb-right-column .MagicZoomPlus img:eq(0)",
+      "#pb-left-column .MagicZoomPlus img:eq(0)",
+      "#pb-right-column img:eq(0)",
+      "#pb-left-column img:eq(0)"
+    ],
+    "prix_css": [
+      "#productWrap2 #prix-produit .prix",
+      "#pb-right-column #our_price_display",
+      "#pb-left-column #our_price_display"
+    ],
+    "breadcrumb_css": [
+      ".breadcrumbs  a:not(a:first)",
+      "#breadcrumbs  a:not(a:first)",
+      "#breadcrumb a:not(a:first)",
+      ".breadcrumb a:not(a:first)"
+    ]
+  }
 }
