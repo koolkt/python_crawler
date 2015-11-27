@@ -1,0 +1,1586 @@
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:crawling:Starting crawl...
+INFO:crawling:got 394 urls from 'http://www.10k00nt.com/' new links: 167 visited: 1
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/password.php' new links: 5 visited: 168
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/103-brules-encens' new links: 4 visited: 173
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/76-porte-encens' new links: 3 visited: 177
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/97--cendrier-marocain-10cm' new links: 2 visited: 180
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/94-cendrier-marocain-10cm' new links: 1 visited: 182
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/88-narguiles-de-40-a-50-cm' new links: 6 visited: 183
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/category.php?id_category=76' new links: 0 visited: 189
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/category.php?id_category=13' new links: 1 visited: 189
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/category.php?id_category=80' new links: 1 visited: 190
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/category.php?id_category=16' new links: 3 visited: 191
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/71-tubes-a-cigarette-par-1000' new links: 3 visited: 194
+INFO:crawling:got 317 urls from 'http://www.10k00nt.com/10-feuilles-a-rouler' new links: 1 visited: 197
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/106-cendrier-marocain-cisele' new links: 2 visited: 198
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/category.php?id_category=56' new links: 1 visited: 200
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/80-vetements-et-accessoires-de-mode' new links: 0 visited: 201
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/28-etui-feuille-slim' new links: 3 visited: 201
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/79-sans-tamis' new links: 4 visited: 204
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/66-bob-marley' new links: 1 visited: 208
+INFO:crawling:got 394 urls from 'http://www.10k00nt.com/' new links: 4 visited: 209
+INFO:crawling:got 311 urls from 'http://www.10k00nt.com/category.php?id_category=73' new links: 1 visited: 213
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/92-brule-encens' new links: 1 visited: 214
+INFO:crawling:got 327 urls from 'http://www.10k00nt.com/24-boite-a-secret' new links: 4 visited: 215
+INFO:crawling:got 298 urls from 'http://www.10k00nt.com/category.php?id_category=12' new links: 1 visited: 219
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/best-sales.php' new links: 11 visited: 220
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/81-clipper-par-serie' new links: 1 visited: 231
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/102-brules-parfums' new links: 5 visited: 232
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/95-cendrier-marocain-12cm' new links: 1 visited: 237
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/61-feuilles-a-rouler-par-boite' new links: 6 visited: 238
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/38-parfuns-d-orient' new links: 2 visited: 244
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/40-porte-monnaie-cuir-maroc' new links: 5 visited: 246
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/47-petite-boite-metal' new links: 1 visited: 251
+INFO:crawling:got 305 urls from 'http://www.10k00nt.com/23-tubeuse-cigarette' new links: 2 visited: 252
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/55-utile-et-indispensable' new links: 1 visited: 254
+INFO:crawling:got 297 urls from 'http://www.10k00nt.com/content/5-paiement-securise' new links: 3 visited: 255
+INFO:crawling:got 362 urls from 'http://www.10k00nt.com/31-cheche-echarpe' new links: 12 visited: 258
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/content/1-livraison' new links: 0 visited: 270
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/cms.php?id_cms=3' new links: 0 visited: 270
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/babouches-marocaines/1843-babouches-originales-marocaines-rouge.html' new links: 9 visited: 270
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/63-elements' new links: 3 visited: 279
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/category.php?id_category=55' new links: 0 visited: 282
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/60-feuilles-a-rouler-par-lot-de-10' new links: 5 visited: 282
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/46-etuis-de-poche' new links: 1 visited: 287
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/35-savon-noir-huiles-essentielles' new links: 5 visited: 288
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/category.php?id_category=54' new links: 1 visited: 293
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/98--cendrier-marocain-12-cm' new links: 1 visited: 294
+INFO:crawling:got 343 urls from 'http://www.10k00nt.com/cendriers-marocains-ciseles/1858-cendrier-cisele-orange.html' new links: 5 visited: 295
+INFO:crawling:got 317 urls from 'http://www.10k00nt.com/108-blague-a-tabac' new links: 1 visited: 300
+INFO:crawling:got 323 urls from 'http://www.10k00nt.com/43-decoration-interieure' new links: 2 visited: 301
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/16-grinder-polinator' new links: 0 visited: 303
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/category.php?id_category=64' new links: 3 visited: 303
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/64-smoking' new links: 0 visited: 306
+INFO:crawling:got 339 urls from 'http://www.10k00nt.com/blague-a-tabac/1861-blague-a-tabac-en-cuir-facon-python.html' new links: 3 visited: 306
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/category.php?id_category=20' new links: 6 visited: 309
+INFO:crawling:got 362 urls from 'http://www.10k00nt.com/82-clippers-a-l-unitee' new links: 12 visited: 315
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/content/1-livraison-retours' new links: 0 visited: 327
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/category.php?id_category=103' new links: 0 visited: 327
+INFO:crawling:got 298 urls from 'http://www.10k00nt.com/12-briquets-clipper' new links: 0 visited: 327
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/56-confort-et-bien-etre' new links: 0 visited: 327
+INFO:crawling:got 295 urls from 'http://www.10k00nt.com/new-products.php' new links: 0 visited: 327
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/32-pouf-marocain' new links: 4 visited: 327
+INFO:crawling:got 333 urls from 'http://www.10k00nt.com/blague-a-tabac/1860-blague-a-tabac-en-cuir.html' new links: 1 visited: 331
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/72-encens-par-lot' new links: 1 visited: 332
+INFO:crawling:got 363 urls from 'http://www.10k00nt.com/48-balance-electronique-01g' new links: 11 visited: 333
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/18-cendrier' new links: 1 visited: 344
+INFO:crawling:got 301 urls from 'http://www.10k00nt.com/authentication.php' new links: 1 visited: 345
+INFO:crawling:got 327 urls from 'http://www.10k00nt.com/category.php?id_category=24' new links: 0 visited: 346
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/25-etui-a-cigarette' new links: 4 visited: 346
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/content/3-conditions-generales-de-ventes' new links: 0 visited: 350
+INFO:crawling:got 323 urls from 'http://www.10k00nt.com/category.php?id_category=43' new links: 0 visited: 350
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/42-applique-marocaine' new links: 1 visited: 350
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/77-brule-encens-parfum' new links: 1 visited: 351
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/37-pierre-d-alun' new links: 2 visited: 352
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/category.php?id_category=32' new links: 0 visited: 354
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/category.php?id_category=42' new links: 0 visited: 354
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/59-balance-electronique-par-lot-de-10' new links: 2 visited: 354
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/29-boite-curing' new links: 6 visited: 356
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/babouches-marocaines/1842-babouches-originales-marocaines-.html' new links: 1 visited: 362
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/34-huile-d-argan-aux-fleurs' new links: 4 visited: 363
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/category.php?id_category=33' new links: 0 visited: 367
+INFO:crawling:got 329 urls from 'http://www.10k00nt.com/cendriers-marocains-ciseles/1857-cendrier-cisele-cercle.html' new links: 1 visited: 367
+INFO:crawling:got 316 urls from 'http://www.10k00nt.com/84-narguile' new links: 2 visited: 368
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/53-boite-a-rouler' new links: 3 visited: 370
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/prices-drop.php' new links: 2 visited: 373
+INFO:crawling:got 319 urls from 'http://www.10k00nt.com/69-lol' new links: 1 visited: 375
+INFO:crawling:got 372 urls from 'http://www.10k00nt.com/balance-electronique-01g/14-balance-electronique-de-poche-compact-500.html' new links: 8 visited: 376
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/category.php?id_category=37' new links: 0 visited: 384
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/107-cendriers-marocains-ciseles' new links: 0 visited: 384
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/96--cendrier-marocain-8cm' new links: 5 visited: 384
+INFO:crawling:got 313 urls from 'http://www.10k00nt.com/99-tube-a-cigarettes-par-lot-de-1000' new links: 1 visited: 389
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/avec-filtre/1855-grinder-avec-moulin-.html' new links: 7 visited: 390
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/36-argiles-naturelles-maroc' new links: 2 visited: 397
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/category.php?id_category=36' new links: 0 visited: 399
+INFO:crawling:got 313 urls from 'http://www.10k00nt.com/100-paquets-de-tubes-a-l-unite' new links: 3 visited: 399
+INFO:crawling:got 343 urls from 'http://www.10k00nt.com/93-cendrier-marocain-8cm' new links: 1 visited: 402
+INFO:crawling:got 354 urls from 'http://www.10k00nt.com/30-keffieh' new links: 10 visited: 403
+INFO:crawling:got 313 urls from 'http://www.10k00nt.com/50-balance-par-lot-de-10' new links: 2 visited: 413
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/20-encens-naturel' new links: 0 visited: 415
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/65-trip' new links: 1 visited: 415
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/54-espace-fumeur' new links: 0 visited: 416
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/category.php?id_category=62' new links: 1 visited: 416
+INFO:crawling:redirect to 'http://www.10k00nt.com/authentication.php?back=order.php?step=1' from 'http://www.10k00nt.com/order.php?step=1' max_redir: 9
+INFO:crawling:got 327 urls from 'http://www.10k00nt.com/brule-encens/150-brule-encens-tajine-bleu.html' new links: 6 visited: 418
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/cms.php?id_cms=4' new links: 0 visited: 424
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/39-epices-sauvages-du-maroc' new links: 4 visited: 424
+INFO:crawling:got 295 urls from 'http://www.10k00nt.com/search.php' new links: 0 visited: 428
+INFO:crawling:got 386 urls from 'http://www.10k00nt.com/accessoires-narguile/1171-embouts-chicha-hygiene-femelle-sachet-de-10.html' new links: 17 visited: 428
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/smoking/1837-paquet-de-feuilles-smoking-gold-slim.html' new links: 3 visited: 445
+INFO:crawling:got 363 urls from 'http://www.10k00nt.com/85-accessoires-narguile' new links: 1 visited: 448
+INFO:crawling:got 356 urls from 'http://www.10k00nt.com/narguiles-de-40-a-50-cm/1116-narguile-double-orchidee-bleue-42-cm.html' new links: 3 visited: 449
+INFO:crawling:got 347 urls from 'http://www.10k00nt.com/sans-tamis/688-grinder-bois-2-parties-ying-51-mm.html' new links: 4 visited: 452
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/brule-encens-parfum/140-brule-parfum-bleu.html' new links: 3 visited: 456
+INFO:crawling:got 335 urls from 'http://www.10k00nt.com/sans-tamis/689-grinder-alu-2-parties-weed-pro-30-mm.html' new links: 1 visited: 459
+INFO:crawling:got 352 urls from 'http://www.10k00nt.com/elements/469-feuilles-a-rouler-elements-larges-79-mm-par-boite-de-25-carnets.html' new links: 6 visited: 460
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/etui-feuille-slim/1817-etui-pour-feuilles-king-size-raw.html' new links: 5 visited: 466
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/15-rouleuse-feuille-a-rouler-pas-cher' new links: 3 visited: 471
+INFO:crawling:got 314 urls from 'http://www.10k00nt.com/87-narguile-40-cm' new links: 1 visited: 474
+INFO:crawling:got 354 urls from 'http://www.10k00nt.com/category.php?id_category=30' new links: 0 visited: 475
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/narguiles-de-40-a-50-cm/696-narguile-opal-vert-45-cm.html' new links: 1 visited: 475
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/content/4-a-propos' new links: 0 visited: 476
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/19-encens-du-monde' new links: 3 visited: 476
+INFO:crawling:got 378 urls from 'http://www.10k00nt.com/accessoires-narguile/691-joint-tuyau-chicha-universel.html' new links: 1 visited: 479
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/category.php?id_category=71' new links: 0 visited: 480
+INFO:crawling:got 355 urls from 'http://www.10k00nt.com/narguiles-de-40-a-50-cm/1117-narguile-double-orchidee-verte-42-cm.html' new links: 2 visited: 480
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/etui-feuille-slim/661-etui-a-feuilles-juicy-pour-carnets-slim-ou-king-size.html' new links: 1 visited: 482
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/41-lanterne-marocaine' new links: 1 visited: 483
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/lol/646-feuilles-slim-lol-ultra-fines-filigranees.html' new links: 4 visited: 484
+INFO:crawling:got 298 urls from 'http://www.10k00nt.com/contact-form.php' new links: 0 visited: 488
+INFO:crawling:got 321 urls from 'http://www.10k00nt.com/17-balance-de-precision' new links: 3 visited: 488
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/75-raw' new links: 1 visited: 491
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/70-roll' new links: 1 visited: 492
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/83-consommables' new links: 1 visited: 493
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/best-sales.php?p=2' new links: 2 visited: 494
+INFO:crawling:got 312 urls from 'http://www.10k00nt.com/26-filtres-cigarettes' new links: 1 visited: 496
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/category.php?id_category=66' new links: 0 visited: 497
+INFO:crawling:got 294 urls from 'http://www.10k00nt.com/order.php' new links: 0 visited: 497
+INFO:crawling:got 327 urls from 'http://www.10k00nt.com/brule-encens/144-brule-encens-marocain.html' new links: 1 visited: 497
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/etuis-de-poche/33-pochette-rasta.html' new links: 5 visited: 498
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/category.php?id_category=41' new links: 0 visited: 503
+INFO:crawling:got 343 urls from 'http://www.10k00nt.com/cendriers-marocains-ciseles/1859-cendrier-cisele-pyramide.html' new links: 1 visited: 503
+INFO:crawling:got 321 urls from 'http://www.10k00nt.com/11-narguiles' new links: 1 visited: 504
+INFO:crawling:got 339 urls from 'http://www.10k00nt.com/elements/507-feuilles-slim-elements-boite-de-50-carnets.html' new links: 1 visited: 505
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/babouches-marocaines/1844-babouches-originales-marocaines-orange.html' new links: 1 visited: 506
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/etuis-de-poche/32-pochette-buddha.html' new links: 1 visited: 507
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/category.php?id_category=34' new links: 0 visited: 508
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/sans-tamis/1848-grinder-magnetic-mystic-.html' new links: 1 visited: 508
+INFO:crawling:got 384 urls from 'http://www.10k00nt.com/accessoires-narguile/575-joint-silicone-35-mm-vase-chicha.html' new links: 1 visited: 509
+INFO:crawling:got 350 urls from 'http://www.10k00nt.com/elements/506-feuilles-slim-elements-ultra-fines.html' new links: 1 visited: 510
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/etuis-de-poche/365-porte-monnaie-cuir-jaune.html' new links: 4 visited: 511
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/78-avec-filtre' new links: 0 visited: 515
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/brule-encens-parfum/141-brule-parfum-vert.html' new links: 1 visited: 515
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/elements/425-feuilles-a-rouler-elements-sticks-larges.html' new links: 1 visited: 516
+INFO:crawling:got 328 urls from 'http://www.10k00nt.com/category.php?id_category=57' new links: 1 visited: 517
+INFO:crawling:got 361 urls from 'http://www.10k00nt.com/narguiles-de-40-a-50-cm/1875-chicha-double-afia-45-cm.html' new links: 1 visited: 518
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/68-kezer-soze' new links: 1 visited: 519
+INFO:crawling:got 320 urls from 'http://www.10k00nt.com/-cendrier-marocain-10cm/171-cendrier-marocain-10-cm.html' new links: 4 visited: 520
+INFO:crawling:got 318 urls from 'http://www.10k00nt.com/22-tube-cigarette' new links: 1 visited: 524
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/blague-a-tabac/1863-balgue-a-tabac-metallise.html' new links: 1 visited: 525
+INFO:crawling:got 299 urls from 'http://www.10k00nt.com/58-briquets-clipper-serie-colector' new links: 1 visited: 526
+INFO:crawling:got 298 urls from 'http://www.10k00nt.com/27-bol-marocain' new links: 1 visited: 527
+INFO:crawling:got 349 urls from 'http://www.10k00nt.com/porte-encens/411-porte-encens-bois-laiton.html' new links: 4 visited: 528
+INFO:crawling:got 323 urls from 'http://www.10k00nt.com/filtres-cigarettes/258-filtres-cigarettes-fins-zen.html' new links: 4 visited: 532
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/parfuns-d-orient/607-musc-en-tablettes.html' new links: 5 visited: 536
+INFO:crawling:got 323 urls from 'http://www.10k00nt.com/filtres-cigarettes/298-filtres-cigarettes-super-fins-zen.html' new links: 1 visited: 541
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/sans-tamis/276-grinder-weed-pro-2-parties-40-mm.html' new links: 1 visited: 542
+INFO:crawling:got 346 urls from 'http://www.10k00nt.com/cendrier-marocain-8cm/1854-cendrier-marocain-ciseles.html' new links: 3 visited: 543
+INFO:crawling:got 335 urls from 'http://www.10k00nt.com/babouches-marocaines/1853-babouches-orientales-poprouge.html' new links: 1 visited: 546
+INFO:crawling:got 393 urls from 'http://www.10k00nt.com/sitemap.php' new links: 8 visited: 547
+INFO:crawling:got 334 urls from 'http://www.10k00nt.com/avec-filtre/1865-grinder-baril.html' new links: 2 visited: 555
+INFO:crawling:got 301 urls from 'http://www.10k00nt.com/89-narguile-de-70-cm' new links: 1 visited: 557
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/category.php?id_category=19' new links: 0 visited: 558
+INFO:crawling:got 362 urls from 'http://www.10k00nt.com/category.php?id_category=31' new links: 0 visited: 558
+INFO:crawling:got 350 urls from 'http://www.10k00nt.com/charbon-a-narguile/186-charbon-narguile-rolland.html' new links: 7 visited: 558
+INFO:crawling:got 325 urls from 'http://www.10k00nt.com/86-charbon-a-narguile' new links: 0 visited: 565
+INFO:crawling:got 334 urls from 'http://www.10k00nt.com/raw/581-feuilles-a-rouler-raw-slims-boite-50-carnets.html' new links: 4 visited: 565
+INFO:crawling:got 326 urls from 'http://www.10k00nt.com/tubes-a-cigarette-par-1000/1067-tubes-menthol-zen-les-1000.html' new links: 4 visited: 569
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/boite-a-secret/268-boite-de-poche-headcase.html' new links: 4 visited: 573
+INFO:crawling:got 323 urls from 'http://www.10k00nt.com/trip/535-feuille-a-rouler-transparentetrip-king-size.html' new links: 4 visited: 577
+INFO:crawling:got 321 urls from 'http://www.10k00nt.com/category.php?id_category=17' new links: 0 visited: 581
+INFO:crawling:got 321 urls from 'http://www.10k00nt.com/category.php?id_category=11' new links: 0 visited: 581
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/brule-encens-parfum/142-brule-parfum-jaune.html' new links: 1 visited: 581
+INFO:crawling:got 320 urls from 'http://www.10k00nt.com/-cendrier-marocain-12-cm/679-cendrier-marocain-12-cm.html' new links: 3 visited: 582
+INFO:crawling:got 355 urls from 'http://www.10k00nt.com/sans-tamis/1154-grinder-electrique.html' new links: 1 visited: 585
+INFO:crawling:got 386 urls from 'http://www.10k00nt.com/accessoires-narguile/1169-joint-foyer-chicha.html' new links: 1 visited: 586
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/62-ocb' new links: 0 visited: 587
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/avec-filtre/650-grinder-weed-pro-polinator-40-mm.html' new links: 2 visited: 587
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/smoking/1190-papier-rouler-smoking-brown-slim-par-boite.html' new links: 2 visited: 589
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/33-babouches-marocaines' new links: 0 visited: 591
+INFO:crawling:got 328 urls from 'http://www.10k00nt.com/57-achats-malins' new links: 0 visited: 591
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/category.php?id_category=61' new links: 0 visited: 591
+INFO:crawling:got 306 urls from 'http://www.10k00nt.com/104-henne' new links: 1 visited: 591
+INFO:crawling:got 311 urls from 'http://www.10k00nt.com/73-cendrier-marocain' new links: 0 visited: 592
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/101-petites-boites-en-bois' new links: 1 visited: 592
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/brule-encens-parfum/143-brule-parfum-rouge.html' new links: 1 visited: 593
+INFO:crawling:got 327 urls from 'http://www.10k00nt.com/raw/1835-boite-de-feuilles-raw-par-50-carnets.html' new links: 1 visited: 594
+INFO:crawling:got 326 urls from 'http://www.10k00nt.com/boite-a-rouler/686-boite-a-rouler-spliff-box-grande.html' new links: 4 visited: 595
+INFO:crawling:got 341 urls from 'http://www.10k00nt.com/narguiles-de-40-a-50-cm/1172-narguile-double-orchidee-rouge-42-cm.html' new links: 1 visited: 599
+INFO:crawling:got 326 urls from 'http://www.10k00nt.com/tubes-a-cigarette-par-1000/537-tube-normales-zen-les-1000.html' new links: 1 visited: 600
+INFO:crawling:got 343 urls from 'http://www.10k00nt.com/porte-encens/1184-porte-encens-jack-sparrow.html' new links: 1 visited: 601
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/balance-par-lot-de-10/1175-lot-de-10-balances-compact-500.html' new links: 7 visited: 602
+INFO:crawling:got 343 urls from 'http://www.10k00nt.com/49-balance-electronique-001g' new links: 4 visited: 609
+INFO:crawling:got 343 urls from 'http://www.10k00nt.com/lol/648-feuilles-lol-slim-boite-de-50-carnets.html' new links: 1 visited: 613
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1207-briquet-clipper-pacman-whaou.html' new links: 5 visited: 614
+INFO:crawling:got 374 urls from 'http://www.10k00nt.com/balance-electronique-01g/15-balance-de-precission-01g-bj-mp3-150.html' new links: 1 visited: 619
+INFO:crawling:got 352 urls from 'http://www.10k00nt.com/elements/468-feuilles-a-rouler-elements-stick-larges-par-10-carnets.html' new links: 1 visited: 620
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/trip/1122-feuilles-transparentes-king-size-par-10-carnets.html' new links: 1 visited: 621
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/babouches-marocaines/9-babouches-homme-noir-pointues.html' new links: 2 visited: 622
+INFO:crawling:got 350 urls from 'http://www.10k00nt.com/savon-noir-huiles-essentielles/606-gant-kessa-marocain-en-crepe-pour-gommage.html' new links: 7 visited: 624
+INFO:crawling:got 333 urls from 'http://www.10k00nt.com/boite-a-rouler/652-boite-a-rouler-zen.html' new links: 2 visited: 631
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/cheche-echarpe/677-cheche-homme-rouge.html' new links: 6 visited: 633
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/-cendrier-marocain-8cm/166-cendrier-marocain-8-cm.html' new links: 3 visited: 639
+INFO:crawling:got 324 urls from 'http://www.10k00nt.com/tubeuse-cigarette/1850-tubeuse-shooters-laramie.html' new links: 6 visited: 642
+INFO:crawling:got 355 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1201-briquet-clipper-maxi-on-off.html' new links: 1 visited: 648
+INFO:crawling:got 335 urls from 'http://www.10k00nt.com/boite-curing/1887-canette-de-soda.html' new links: 3 visited: 649
+INFO:crawling:got 351 urls from 'http://www.10k00nt.com/savon-noir-huiles-essentielles/613-savon-noir-aux-huiles-essentielles-de-thym-sauvage-du-maroc.html' new links: 5 visited: 652
+INFO:crawling:got 341 urls from 'http://www.10k00nt.com/smoking/1836-paquet-de-feuille-smoking-brown-slim.html' new links: 1 visited: 657
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1206-briquet-clipper-pacman-love.html' new links: 1 visited: 658
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Electronique' new links: 1 visited: 659
+INFO:crawling:got 314 urls from 'http://www.10k00nt.com/31-cheche-echarpe?p=2' new links: 0 visited: 660
+INFO:crawling:got 340 urls from 'http://www.10k00nt.com/etui-a-cigarette/1156-boite-a-cigarette-ying-yang.html' new links: 4 visited: 660
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/pouf-marocain/301-pouf-oriental-jaune.html' new links: 7 visited: 664
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/huile-d-argan-aux-fleurs/605-huile-d-argan-a-l-essence-naturelle-de-gardenia-du-maroc.html' new links: 4 visited: 671
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/decoration-interieure/360-petit-miroir-artisanal-maroc.html' new links: 4 visited: 675
+INFO:crawling:got 333 urls from 'http://www.10k00nt.com/pouf-marocain/305-pouf-maroc-orange.html' new links: 2 visited: 679
+INFO:crawling:got 364 urls from 'http://www.10k00nt.com/balance-electronique-01g/235-balance-electronique-my-weigh-mxt-500.html' new links: 2 visited: 681
+INFO:crawling:got 340 urls from 'http://www.10k00nt.com/etui-a-cigarette/1157-boite-a-cigarette-metal-pentagram.html' new links: 1 visited: 683
+INFO:crawling:got 370 urls from 'http://www.10k00nt.com/cheche-echarpe/669-cheche-bleu-touareg.html' new links: 1 visited: 684
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/boite-curing/1178-boite-curring-vanity.html' new links: 2 visited: 685
+INFO:crawling:got 334 urls from 'http://www.10k00nt.com/boite-curing/58-boite-stash-marley.html' new links: 1 visited: 687
+INFO:crawling:got 333 urls from 'http://www.10k00nt.com/pouf-marocain/304-pouf-marocain-bleu.html' new links: 2 visited: 688
+INFO:crawling:got 338 urls from 'http://www.10k00nt.com/lol/647-feuilles-a-rouler-lol-slim-par-10-carnets.html' new links: 1 visited: 690
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1843' new links: 2 visited: 691
+INFO:crawling:got 368 urls from 'http://www.10k00nt.com/balance-electronique-01g/13-balance-electronique-01g-cd-mc-500.html' new links: 2 visited: 693
+INFO:crawling:got 356 urls from 'http://www.10k00nt.com/cheche-echarpe/674-echarpe-cheche-touareg-orange.html' new links: 1 visited: 695
+INFO:crawling:got 368 urls from 'http://www.10k00nt.com/balance-electronique-01g/18-balance-electronique-de-poche-iphone-650.html' new links: 2 visited: 696
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1858' new links: 0 visited: 698
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/82-clippers-a-l-unitee?p=2' new links: 0 visited: 698
+INFO:crawling:got 338 urls from 'http://www.10k00nt.com/raw/580-feuilles-a-rouler-raw-slims-par-10-carnets.html' new links: 1 visited: 698
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/prices-drop.php?p=2' new links: 0 visited: 699
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/search.php?tag=Compact' new links: 0 visited: 699
+INFO:crawling:got 369 urls from 'http://www.10k00nt.com/balance-electronique-01g/28-balance-electronique-tactile-touchscreen-300.html' new links: 2 visited: 699
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1861' new links: 0 visited: 701
+INFO:crawling:got 354 urls from 'http://www.10k00nt.com/narguile-40-cm/549-narguile-pumpkin.html' new links: 4 visited: 701
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/cheche-echarpe/676-foulard-cheche-jaune.html' new links: 1 visited: 705
+INFO:crawling:got 369 urls from 'http://www.10k00nt.com/balance-electronique-01g/17-balance-electronique-my-weight-mxt-500.html' new links: 1 visited: 706
+INFO:crawling:got 355 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1208-briquet-clipper-crystal.html' new links: 1 visited: 707
+INFO:crawling:got 370 urls from 'http://www.10k00nt.com/cheche-echarpe/673-cheche-blanc.html' new links: 1 visited: 708
+INFO:crawling:got 366 urls from 'http://www.10k00nt.com/balance-electronique-01g/23-balance-ecran-tactile-touchscreen-250.html' new links: 1 visited: 709
+INFO:crawling:got 366 urls from 'http://www.10k00nt.com/balance-electronique-01g/1081-balance-electronique-poche-iphone-650.html' new links: 1 visited: 710
+INFO:crawling:got 359 urls from 'http://www.10k00nt.com/savon-noir-huiles-essentielles/700-la-gamme-hamam--gant-kessa-offert.html' new links: 5 visited: 711
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/etuis-de-poche/366-porte-monnaie-cuir-rouge.html' new links: 1 visited: 716
+INFO:crawling:got 349 urls from 'http://www.10k00nt.com/savon-noir-huiles-essentielles/597-savon-noir-aux-huiles-essentielles-de-romarin-sauvage-du-maroc.html' new links: 6 visited: 717
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/cheche-echarpe/668-cheche-rouille.html' new links: 1 visited: 723
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1860' new links: 0 visited: 724
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/493-briquet-clipper-maxi-jackpot.html' new links: 1 visited: 724
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1842' new links: 0 visited: 725
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1857' new links: 0 visited: 725
+INFO:crawling:got 368 urls from 'http://www.10k00nt.com/balance-electronique-01g/1080-balance-electronique-precision-ephone-300.html' new links: 2 visited: 725
+INFO:crawling:got 348 urls from 'http://www.10k00nt.com/narguile-40-cm/1822-narguile-pumpkin-double.html' new links: 1 visited: 727
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/encens-naturel/384-encens-tree-spirit.html' new links: 3 visited: 728
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/495-briquet-clipper-maxi-lucky-girl.html' new links: 1 visited: 731
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1092-briquet-clipper-maxi-fer-a-cheval.html' new links: 1 visited: 732
+INFO:crawling:got 366 urls from 'http://www.10k00nt.com/balance-electronique-01g/655-balance-electronique-01g-cd-mc-500.html' new links: 1 visited: 733
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/encens-naturel/383-encens-naturel-yin.html' new links: 1 visited: 734
+INFO:crawling:got 366 urls from 'http://www.10k00nt.com/balance-electronique-01g/231-balance-usa-grow-1000.html' new links: 2 visited: 735
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1203-briquet-clipper-maxi-her-him.html' new links: 1 visited: 737
+INFO:crawling:got 350 urls from 'http://www.10k00nt.com/huile-d-argan-aux-fleurs/603-huile-d-argan-a-l-essence-de-musc.html' new links: 1 visited: 738
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/boite-curing/1889-pile-cachette-.html' new links: 1 visited: 739
+INFO:crawling:got 370 urls from 'http://www.10k00nt.com/balance-electronique-01g/1821-balance-proscale-222.html' new links: 1 visited: 740
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Balance' new links: 1 visited: 741
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=14' new links: 0 visited: 742
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/pierre-d-alun/612-pierre-d-alun.html' new links: 4 visited: 742
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/cheche-echarpe/670-cheche-touareg-bleu-clair.html' new links: 1 visited: 746
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/boite-curing/1177-boite-sechage-crane.html' new links: 1 visited: 747
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/huile-d-argan-aux-fleurs/604-huile-d-argan-a-l-essence-naturelle-de-jasmin-du-maroc.html' new links: 1 visited: 748
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/etuis-de-poche/369-porte-monnaie-cuir-orange.html' new links: 1 visited: 749
+INFO:crawling:got 327 urls from 'http://www.10k00nt.com/48-balance-electronique-01g?p=2' new links: 0 visited: 750
+INFO:crawling:got 354 urls from 'http://www.10k00nt.com/smoking/1188-feuille-rouler-smoking-brown-slim.html' new links: 3 visited: 750
+INFO:crawling:got 349 urls from 'http://www.10k00nt.com/elements/508-feuilles-a-rouler-elements-slims-par-10-carnets.html' new links: 1 visited: 753
+INFO:crawling:got 355 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/637-briquet-clipper-maxi-hot.html' new links: 1 visited: 754
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/pouf-marocain/303-pouf-marocain-vert.html' new links: 3 visited: 755
+INFO:crawling:got 353 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1204-briquet-clipper-pacman-hum.html' new links: 1 visited: 758
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/encens-naturel/382-melange-d-encens-naturel-sheherazade.html' new links: 1 visited: 759
+INFO:crawling:got 333 urls from 'http://www.10k00nt.com/boite-a-rouler/687-boite-a-rouler-spliff-box-moyenne.html' new links: 1 visited: 760
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/smoking/1189-feuilles-smoking-brown-slim-par-10-carnets.html' new links: 1 visited: 761
+INFO:crawling:got 339 urls from 'http://www.10k00nt.com/etui-a-cigarette/644-etui-a-cigarette-plastique-rigide.html' new links: 2 visited: 762
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/encens-naturel/385-kit-encens-les-routes-de-l-orient.html' new links: 1 visited: 764
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/cheche-echarpe/675-cheche-femme-rose.html' new links: 1 visited: 765
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/encens-naturel/381-encens-naturel-assewade.html' new links: 1 visited: 766
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/cheche-echarpe/672-cheche-noir-touareg.html' new links: 1 visited: 767
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/cheche-echarpe/667-cheche-marocain-fuschia.html' new links: 1 visited: 768
+INFO:crawling:got 342 urls from 'http://www.10k00nt.com/etuis-de-poche/367-porte-monnaie-cuir-bleu.html' new links: 1 visited: 769
+INFO:crawling:got 371 urls from 'http://www.10k00nt.com/accessoires-narguile/1168-tuyau-chicha-15-m.html' new links: 1 visited: 770
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=696' new links: 0 visited: 771
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1116' new links: 0 visited: 771
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=33' new links: 0 visited: 771
+INFO:crawling:got 361 urls from 'http://www.10k00nt.com/avec-filtre/1869-grinder-polinator-40mm-rose.html' new links: 1 visited: 771
+INFO:crawling:got 384 urls from 'http://www.10k00nt.com/accessoires-narguile/569-foyer-narguile-simple.html' new links: 1 visited: 772
+INFO:crawling:got 348 urls from 'http://www.10k00nt.com/keffieh/222-keffieh-rouge.html' new links: 4 visited: 773
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=140' new links: 0 visited: 777
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/best-sales.php?p=3' new links: 1 visited: 777
+INFO:crawling:got 333 urls from 'http://www.10k00nt.com/85-accessoires-narguile?p=2' new links: 0 visited: 778
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/encens-du-monde/224-encens-nag-champa-bleu.html' new links: 3 visited: 778
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Artisanat' new links: 1 visited: 781
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Encens' new links: 1 visited: 782
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=144' new links: 0 visited: 783
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1117' new links: 0 visited: 783
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/rouleuse-feuille-a-rouler-pas-cher/250-rouleuse-blunt-135-mm-zen.html' new links: 4 visited: 783
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=688' new links: 0 visited: 787
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=507' new links: 0 visited: 787
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Narguil%C3%A9' new links: 1 visited: 787
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/search.php?tag=Etui+Feuille' new links: 0 visited: 788
+INFO:crawling:got 372 urls from 'http://www.10k00nt.com/accessoires-narguile/574-brosse-narguile.html' new links: 1 visited: 788
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=689' new links: 0 visited: 789
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Bon+Plan' new links: 1 visited: 789
+INFO:crawling:got 378 urls from 'http://www.10k00nt.com/accessoires-narguile/570-foyer-pour-narguile-double.html' new links: 1 visited: 790
+INFO:crawling:got 366 urls from 'http://www.10k00nt.com/keffieh/223-keffieh-rose.html' new links: 1 visited: 791
+INFO:crawling:got 350 urls from 'http://www.10k00nt.com/keffieh/1074-keffieh-pirate-prune.html' new links: 1 visited: 792
+INFO:crawling:got 334 urls from 'http://www.10k00nt.com/-cendrier-marocain-8cm/169-cendrier-marocain-8-cm-rouge.html' new links: 1 visited: 793
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Feuilles+%C3%A0+Rouler' new links: 1 visited: 794
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1859' new links: 0 visited: 795
+INFO:crawling:got 348 urls from 'http://www.10k00nt.com/keffieh/240-kefie-palestinien-blanc-bleu.html' new links: 1 visited: 795
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/search.php?tag=Pochette' new links: 0 visited: 796
+INFO:crawling:got 358 urls from 'http://www.10k00nt.com/clippers-a-l-unitee/1849-briquet-chalumeau-big-flam.html' new links: 2 visited: 796
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/rouleuse-feuille-a-rouler-pas-cher/306-rouleuse-conique-zen.html' new links: 1 visited: 798
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1844' new links: 0 visited: 799
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/balance-de-precision/282-balance-de-precision-001-g-bj-usb50.html' new links: 3 visited: 799
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=661' new links: 0 visited: 802
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1817' new links: 0 visited: 802
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1855' new links: 0 visited: 802
+INFO:crawling:got 366 urls from 'http://www.10k00nt.com/accessoires-narguile/1170-joint-narguile-41-mm-pour-pot.html' new links: 1 visited: 802
+INFO:crawling:got 352 urls from 'http://www.10k00nt.com/charbon-a-narguile/187-charbon-3-mages.html' new links: 3 visited: 803
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Chicha' new links: 1 visited: 806
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/raw/579-feuille-raw-slim.html' new links: 1 visited: 807
+INFO:crawling:got 333 urls from 'http://www.10k00nt.com/argiles-naturelles-maroc/600-rhassoul-naturel-de-fleurs-oranger.html' new links: 5 visited: 808
+INFO:crawling:got 301 urls from 'http://www.10k00nt.com/authentication.php?back=order.php?step=1' new links: 0 visited: 813
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=469' new links: 0 visited: 813
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=150' new links: 0 visited: 813
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=D%C3%A9coration' new links: 1 visited: 813
+INFO:crawling:got 374 urls from 'http://www.10k00nt.com/accessoires-narguile/572-foyer-narguile-quadruple.html' new links: 1 visited: 814
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1171' new links: 0 visited: 815
+INFO:crawling:got 348 urls from 'http://www.10k00nt.com/keffieh/243-keffieh-rouge-bordeau.html' new links: 1 visited: 815
+INFO:crawling:got 325 urls from 'http://www.10k00nt.com/tube-cigarette/408-tube-cigarette-menthol-zen.html' new links: 3 visited: 816
+INFO:crawling:got 377 urls from 'http://www.10k00nt.com/accessoires-narguile/1167-tuyau-chicha-1-m.html' new links: 1 visited: 819
+INFO:crawling:got 354 urls from 'http://www.10k00nt.com/keffieh/1076-keffieh-coeur-rose.html' new links: 1 visited: 820
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=691' new links: 0 visited: 821
+INFO:crawling:got 331 urls from 'http://www.10k00nt.com/balance-par-lot-de-10/1176-balance-de-precision-001g-ipod-100-par-10.html' new links: 1 visited: 821
+INFO:crawling:got 346 urls from 'http://www.10k00nt.com/keffieh/362-foulard-oriental-kefie-blancbleu-kurde.html' new links: 1 visited: 822
+INFO:crawling:got 348 urls from 'http://www.10k00nt.com/keffieh/219-keffieh-jaune.html' new links: 1 visited: 823
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/avec-filtre/1873-grinder-double-tamis-noir.html' new links: 1 visited: 824
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=646' new links: 0 visited: 825
+INFO:crawling:got 383 urls from 'http://www.10k00nt.com/accessoires-narguile/289-pince-narguile-chicha.html' new links: 1 visited: 825
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/raw/1833-feuilles-raw-slim.html' new links: 1 visited: 826
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/-cendrier-marocain-8cm/170-cendrier-marocain-8-cm-vert.html' new links: 1 visited: 827
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Slim' new links: 1 visited: 828
+INFO:crawling:got 328 urls from 'http://www.10k00nt.com/epices-sauvages-du-maroc/610-thym-sauvage-du-maroc.html' new links: 4 visited: 829
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/-cendrier-marocain-8cm/168-petit-cendrier-marocain-jaune.html' new links: 1 visited: 833
+INFO:crawling:got 380 urls from 'http://www.10k00nt.com/accessoires-narguile/573-foyer-narguile-securit.html' new links: 1 visited: 834
+INFO:crawling:got 380 urls from 'http://www.10k00nt.com/accessoires-narguile/571-foyer-pour-narguile-triple.html' new links: 1 visited: 835
+INFO:crawling:got 339 urls from 'http://www.10k00nt.com/epices-sauvages-du-maroc/608-le-vrai-ras-el-hanout-25-epices.html' new links: 1 visited: 836
+INFO:crawling:got 336 urls from 'http://www.10k00nt.com/avec-filtre/363-tamis-du-riff.html' new links: 1 visited: 837
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/search.php?tag=ELEMENTS' new links: 0 visited: 838
+INFO:crawling:got 337 urls from 'http://www.10k00nt.com/tube-cigarette/253-tube-cigarette-zen.html' new links: 1 visited: 838
+INFO:crawling:got 327 urls from 'http://www.10k00nt.com/epices-sauvages-du-maroc/611-menthe-nana-sauvage-sechee-du-moyen-atlas.html' new links: 1 visited: 839
+INFO:crawling:got 345 urls from 'http://www.10k00nt.com/encens-du-monde/225-nag-shampa-satya-sai-baba-goloka-jaune.html' new links: 1 visited: 840
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1837' new links: 0 visited: 841
+INFO:crawling:got 330 urls from 'http://www.10k00nt.com/balance-de-precision/540-balance-electronique-de-precision-001-g-bj-mp3-50.html' new links: 1 visited: 841
+INFO:crawling:got 360 urls from 'http://www.10k00nt.com/cheche-echarpe/1071-cheche-rasta.html' new links: 1 visited: 842
+INFO:crawling:redirect to 'http://www.10k00nt.com/authentication.php?back=identity.php' from 'http://www.10k00nt.com/identity.php' max_redir: 9
+INFO:crawling:redirect to 'http://www.10k00nt.com/authentication.php?back=addresses.php' from 'http://www.10k00nt.com/addresses.php' max_redir: 9
+INFO:crawling:got 338 urls from 'http://www.10k00nt.com/search.php?tag=Grinder' new links: 0 visited: 845
+INFO:crawling:redirect to 'http://www.10k00nt.com/authentication.php?back=history.php' from 'http://www.10k00nt.com/history.php' max_redir: 9
+INFO:crawling:redirect to 'http://www.10k00nt.com/authentication.php?back=discount.php' from 'http://www.10k00nt.com/discount.php' max_redir: 9
+INFO:crawling:got 352 urls from 'http://www.10k00nt.com/keffieh/221-kefie-kaki-110.html' new links: 1 visited: 847
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=607' new links: 0 visited: 848
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/search.php?tag=Bonnes+Affaires' new links: 0 visited: 848
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=679' new links: 0 visited: 848
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=143' new links: 0 visited: 848
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1848' new links: 0 visited: 848
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Maroc' new links: 5 visited: 848
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/search.php?tag=Cendrier' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=142' new links: 0 visited: 853
+INFO:crawling:got 320 urls from 'http://www.10k00nt.com/search.php?tag=Tube+Cigarette' new links: 0 visited: 853
+INFO:crawling:got 295 urls from 'http://www.10k00nt.com/supplier.php' new links: 0 visited: 853
+INFO:crawling:got 332 urls from 'http://www.10k00nt.com/search.php?tag=Balance+de+poche' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=171' new links: 0 visited: 853
+INFO:crawling:got 302 urls from 'http://www.10k00nt.com/search.php?tag=Boite+m%C3%A9tal' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1875' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1865' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1835' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1175' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=298' new links: 0 visited: 853
+INFO:crawling:got 344 urls from 'http://www.10k00nt.com/search.php?tag=Lot+de+10' new links: 0 visited: 853
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1169' new links: 0 visited: 853
+INFO:crawling:got 307 urls from 'http://www.10k00nt.com/manufacturer.php' new links: 2 visited: 853
+INFO:crawling:got 320 urls from 'http://www.10k00nt.com/search.php?tag=Porte+monnaie' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=411' new links: 0 visited: 855
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/search.php?tag=Porte+Encens' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1207' new links: 0 visited: 855
+INFO:crawling:got 338 urls from 'http://www.10k00nt.com/search.php?tag=Balance+%C3%A9l%C3%A9ctronique' new links: 0 visited: 855
+INFO:crawling:got 356 urls from 'http://www.10k00nt.com/search.php?tag=Utile' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1172' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=15' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=506' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1122' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=268' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=686' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=650' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=276' new links: 0 visited: 855
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/search.php?tag=Trip' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1190' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1067' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=186' new links: 0 visited: 855
+INFO:crawling:got 314 urls from 'http://www.10k00nt.com/search.php?tag=Raw' new links: 0 visited: 855
+INFO:crawling:got 297 urls from 'http://www.10k00nt.com/content/7-http-www10k00ntcom-incident' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=365' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1154' new links: 0 visited: 855
+INFO:crawling:got 308 urls from 'http://www.10k00nt.com/search.php?tag=Filtres+cigarettes' new links: 0 visited: 855
+INFO:crawling:got 314 urls from 'http://www.10k00nt.com/search.php?tag=Boite+%C3%A0+Rouler' new links: 0 visited: 855
+INFO:crawling:got 320 urls from 'http://www.10k00nt.com/search.php?tag=Charbon' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=425' new links: 0 visited: 855
+INFO:crawling:got 302 urls from 'http://www.10k00nt.com/search.php?tag=Parfum' new links: 0 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1863' new links: 0 visited: 855
+INFO:crawling:got 357 urls from 'http://www.10k00nt.com/search.php?tag=Briquet' new links: 1 visited: 855
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=141' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1184' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1853' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1854' new links: 0 visited: 856
+INFO:crawling:got 302 urls from 'http://www.10k00nt.com/search.php?tag=Grinder+Baril' new links: 0 visited: 856
+INFO:crawling:got 314 urls from 'http://www.10k00nt.com/search.php?tag=Smoking+Brown' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=575' new links: 0 visited: 856
+INFO:crawling:got 356 urls from 'http://www.10k00nt.com/search.php?tag=Clipper' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=32' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=258' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=535' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=581' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=648' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=537' new links: 0 visited: 856
+INFO:crawling:got 300 urls from 'http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=468' new links: 0 visited: 856
+
+Interrupted
+
+*** Report ***
+http://www.10k00nt.com/ None text/html utf-8 0 167/167
+http://www.10k00nt.com/ None text/html utf-8 0 4/169
+http://www.10k00nt.com/-cendrier-marocain-10cm/171-cendrier-marocain-10-cm.html None text/html utf-8 0 4/131
+http://www.10k00nt.com/-cendrier-marocain-10cm/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/-cendrier-marocain-10cm/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/-cendrier-marocain-12-cm/679-cendrier-marocain-12-cm.html None text/html utf-8 0 3/130
+http://www.10k00nt.com/-cendrier-marocain-12-cm/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/-cendrier-marocain-12-cm/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/-cendrier-marocain-8cm/166-cendrier-marocain-8-cm.html None text/html utf-8 0 3/136
+http://www.10k00nt.com/-cendrier-marocain-8cm/168-petit-cendrier-marocain-jaune.html None text/html utf-8 0 1/136
+http://www.10k00nt.com/-cendrier-marocain-8cm/169-cendrier-marocain-8-cm-rouge.html None text/html utf-8 0 1/136
+http://www.10k00nt.com/-cendrier-marocain-8cm/170-cendrier-marocain-8-cm-vert.html None text/html utf-8 0 1/136
+http://www.10k00nt.com/10-feuilles-a-rouler None text/html utf-8 0 1/124
+http://www.10k00nt.com/100-paquets-de-tubes-a-l-unite None text/html utf-8 0 3/126
+http://www.10k00nt.com/101-petites-boites-en-bois None text/html utf-8 0 1/124
+http://www.10k00nt.com/102-brules-parfums None text/html utf-8 0 5/128
+http://www.10k00nt.com/103-brules-encens None text/html utf-8 0 4/126
+http://www.10k00nt.com/104-henne None text/html utf-8 0 1/125
+http://www.10k00nt.com/106-cendrier-marocain-cisele None text/html utf-8 0 2/128
+http://www.10k00nt.com/107-cendriers-marocains-ciseles None text/html utf-8 0 0/127
+http://www.10k00nt.com/108-blague-a-tabac None text/html utf-8 0 1/127
+http://www.10k00nt.com/11-narguiles None text/html utf-8 0 1/126
+http://www.10k00nt.com/12-briquets-clipper None text/html utf-8 0 0/124
+http://www.10k00nt.com/15-rouleuse-feuille-a-rouler-pas-cher None text/html utf-8 0 3/126
+http://www.10k00nt.com/16-grinder-polinator None text/html utf-8 0 0/126
+http://www.10k00nt.com/17-balance-de-precision None text/html utf-8 0 3/126
+http://www.10k00nt.com/18-cendrier None text/html utf-8 0 1/124
+http://www.10k00nt.com/19-encens-du-monde None text/html utf-8 0 3/126
+http://www.10k00nt.com/20-encens-naturel None text/html utf-8 0 0/129
+http://www.10k00nt.com/22-tube-cigarette None text/html utf-8 0 1/126
+http://www.10k00nt.com/23-tubeuse-cigarette None text/html utf-8 0 2/125
+http://www.10k00nt.com/24-boite-a-secret None text/html utf-8 0 4/127
+http://www.10k00nt.com/25-etui-a-cigarette None text/html utf-8 0 4/127
+http://www.10k00nt.com/26-filtres-cigarettes None text/html utf-8 0 1/124
+http://www.10k00nt.com/27-bol-marocain None text/html utf-8 0 1/124
+http://www.10k00nt.com/28-etui-feuille-slim None text/html utf-8 0 3/126
+http://www.10k00nt.com/29-boite-curing None text/html utf-8 0 6/129
+http://www.10k00nt.com/30-keffieh None text/html utf-8 0 10/133
+http://www.10k00nt.com/31-cheche-echarpe None text/html utf-8 0 12/135
+http://www.10k00nt.com/31-cheche-echarpe?p=2 None text/html utf-8 0 0/127
+http://www.10k00nt.com/32-pouf-marocain None text/html utf-8 0 4/128
+http://www.10k00nt.com/33-babouches-marocaines None text/html utf-8 0 0/129
+http://www.10k00nt.com/34-huile-d-argan-aux-fleurs None text/html utf-8 0 4/127
+http://www.10k00nt.com/35-savon-noir-huiles-essentielles None text/html utf-8 0 5/128
+http://www.10k00nt.com/36-argiles-naturelles-maroc None text/html utf-8 0 2/125
+http://www.10k00nt.com/37-pierre-d-alun None text/html utf-8 0 2/125
+http://www.10k00nt.com/38-parfuns-d-orient None text/html utf-8 0 2/125
+http://www.10k00nt.com/39-epices-sauvages-du-maroc None text/html utf-8 0 4/127
+http://www.10k00nt.com/40-porte-monnaie-cuir-maroc None text/html utf-8 0 5/128
+http://www.10k00nt.com/41-lanterne-marocaine None text/html utf-8 0 1/124
+http://www.10k00nt.com/42-applique-marocaine None text/html utf-8 0 1/124
+http://www.10k00nt.com/43-decoration-interieure None text/html utf-8 0 2/125
+http://www.10k00nt.com/46-etuis-de-poche None text/html utf-8 0 1/130
+http://www.10k00nt.com/47-petite-boite-metal None text/html utf-8 0 1/125
+http://www.10k00nt.com/48-balance-electronique-01g None text/html utf-8 0 11/135
+http://www.10k00nt.com/48-balance-electronique-01g?p=2 None text/html utf-8 0 0/128
+http://www.10k00nt.com/49-balance-electronique-001g None text/html utf-8 0 4/131
+http://www.10k00nt.com/50-balance-par-lot-de-10 None text/html utf-8 0 2/126
+http://www.10k00nt.com/53-boite-a-rouler None text/html utf-8 0 3/127
+http://www.10k00nt.com/54-espace-fumeur None text/html utf-8 0 0/124
+http://www.10k00nt.com/55-utile-et-indispensable None text/html utf-8 0 1/124
+http://www.10k00nt.com/56-confort-et-bien-etre None text/html utf-8 0 0/124
+http://www.10k00nt.com/57-achats-malins None text/html utf-8 0 0/126
+http://www.10k00nt.com/58-briquets-clipper-serie-colector None text/html utf-8 0 1/124
+http://www.10k00nt.com/59-balance-electronique-par-lot-de-10 None text/html utf-8 0 2/126
+http://www.10k00nt.com/60-feuilles-a-rouler-par-lot-de-10 None text/html utf-8 0 5/130
+http://www.10k00nt.com/61-feuilles-a-rouler-par-boite None text/html utf-8 0 6/129
+http://www.10k00nt.com/62-ocb None text/html utf-8 0 0/124
+http://www.10k00nt.com/63-elements None text/html utf-8 0 3/130
+http://www.10k00nt.com/64-smoking None text/html utf-8 0 0/129
+http://www.10k00nt.com/65-trip None text/html utf-8 0 1/124
+http://www.10k00nt.com/66-bob-marley None text/html utf-8 0 1/124
+http://www.10k00nt.com/68-kezer-soze None text/html utf-8 0 1/124
+http://www.10k00nt.com/69-lol None text/html utf-8 0 1/126
+http://www.10k00nt.com/70-roll None text/html utf-8 0 1/124
+http://www.10k00nt.com/71-tubes-a-cigarette-par-1000 None text/html utf-8 0 3/126
+http://www.10k00nt.com/72-encens-par-lot None text/html utf-8 0 1/125
+http://www.10k00nt.com/73-cendrier-marocain None text/html utf-8 0 0/124
+http://www.10k00nt.com/75-raw None text/html utf-8 0 1/124
+http://www.10k00nt.com/76-porte-encens None text/html utf-8 0 3/126
+http://www.10k00nt.com/77-brule-encens-parfum None text/html utf-8 0 1/128
+http://www.10k00nt.com/78-avec-filtre None text/html utf-8 0 0/129
+http://www.10k00nt.com/79-sans-tamis None text/html utf-8 0 4/129
+http://www.10k00nt.com/80-vetements-et-accessoires-de-mode None text/html utf-8 0 0/124
+http://www.10k00nt.com/81-clipper-par-serie None text/html utf-8 0 1/124
+http://www.10k00nt.com/82-clippers-a-l-unitee None text/html utf-8 0 12/135
+http://www.10k00nt.com/82-clippers-a-l-unitee?p=2 None text/html utf-8 0 0/126
+http://www.10k00nt.com/83-consommables None text/html utf-8 0 1/124
+http://www.10k00nt.com/84-narguile None text/html utf-8 0 2/125
+http://www.10k00nt.com/85-accessoires-narguile None text/html utf-8 0 1/135
+http://www.10k00nt.com/85-accessoires-narguile?p=2 None text/html utf-8 0 0/130
+http://www.10k00nt.com/86-charbon-a-narguile None text/html utf-8 0 0/128
+http://www.10k00nt.com/87-narguile-40-cm None text/html utf-8 0 1/126
+http://www.10k00nt.com/88-narguiles-de-40-a-50-cm None text/html utf-8 0 6/129
+http://www.10k00nt.com/89-narguile-de-70-cm None text/html utf-8 0 1/124
+http://www.10k00nt.com/92-brule-encens None text/html utf-8 0 1/126
+http://www.10k00nt.com/93-cendrier-marocain-8cm None text/html utf-8 0 1/131
+http://www.10k00nt.com/94-cendrier-marocain-10cm None text/html utf-8 0 1/125
+http://www.10k00nt.com/95-cendrier-marocain-12cm None text/html utf-8 0 1/124
+http://www.10k00nt.com/96--cendrier-marocain-8cm None text/html utf-8 0 5/129
+http://www.10k00nt.com/97--cendrier-marocain-10cm None text/html utf-8 0 2/125
+http://www.10k00nt.com/98--cendrier-marocain-12-cm None text/html utf-8 0 1/124
+http://www.10k00nt.com/99-tube-a-cigarettes-par-lot-de-1000 None text/html utf-8 0 1/126
+http://www.10k00nt.com/accessoires-narguile/1167-tuyau-chicha-1-m.html None text/html utf-8 0 1/147
+http://www.10k00nt.com/accessoires-narguile/1168-tuyau-chicha-15-m.html None text/html utf-8 0 1/146
+http://www.10k00nt.com/accessoires-narguile/1169-joint-foyer-chicha.html None text/html utf-8 0 1/147
+http://www.10k00nt.com/accessoires-narguile/1170-joint-narguile-41-mm-pour-pot.html None text/html utf-8 0 1/146
+http://www.10k00nt.com/accessoires-narguile/1171-embouts-chicha-hygiene-femelle-sachet-de-10.html None text/html utf-8 0 17/147
+http://www.10k00nt.com/accessoires-narguile/289-pince-narguile-chicha.html None text/html utf-8 0 1/148
+http://www.10k00nt.com/accessoires-narguile/569-foyer-narguile-simple.html None text/html utf-8 0 1/148
+http://www.10k00nt.com/accessoires-narguile/570-foyer-pour-narguile-double.html None text/html utf-8 0 1/148
+http://www.10k00nt.com/accessoires-narguile/571-foyer-pour-narguile-triple.html None text/html utf-8 0 1/148
+http://www.10k00nt.com/accessoires-narguile/572-foyer-narguile-quadruple.html None text/html utf-8 0 1/147
+http://www.10k00nt.com/accessoires-narguile/573-foyer-narguile-securit.html None text/html utf-8 0 1/147
+http://www.10k00nt.com/accessoires-narguile/574-brosse-narguile.html None text/html utf-8 0 1/147
+http://www.10k00nt.com/accessoires-narguile/575-joint-silicone-35-mm-vase-chicha.html None text/html utf-8 0 1/149
+http://www.10k00nt.com/accessoires-narguile/691-joint-tuyau-chicha-universel.html None text/html utf-8 0 1/147
+http://www.10k00nt.com/accessoires-narguile/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/accessoires-narguile/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/addresses.php 302 redirect http://www.10k00nt.com/authentication.php?back=addresses.php
+http://www.10k00nt.com/argiles-naturelles-maroc/600-rhassoul-naturel-de-fleurs-oranger.html None text/html utf-8 0 5/134
+http://www.10k00nt.com/authentication.php None text/html utf-8 0 1/124
+http://www.10k00nt.com/authentication.php?back=order.php?step=1 None text/html utf-8 0 0/125
+http://www.10k00nt.com/avec-filtre/1855-grinder-avec-moulin-.html None text/html utf-8 0 7/137
+http://www.10k00nt.com/avec-filtre/1865-grinder-baril.html None text/html utf-8 0 2/135
+http://www.10k00nt.com/avec-filtre/1869-grinder-polinator-40mm-rose.html None text/html utf-8 0 1/138
+http://www.10k00nt.com/avec-filtre/1873-grinder-double-tamis-noir.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/avec-filtre/363-tamis-du-riff.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/avec-filtre/650-grinder-weed-pro-polinator-40-mm.html None text/html utf-8 0 2/137
+http://www.10k00nt.com/avec-filtre/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/avec-filtre/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/babouches-marocaines/1842-babouches-originales-marocaines-.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/babouches-marocaines/1843-babouches-originales-marocaines-rouge.html None text/html utf-8 0 9/134
+http://www.10k00nt.com/babouches-marocaines/1844-babouches-originales-marocaines-orange.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/babouches-marocaines/1853-babouches-orientales-poprouge.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/babouches-marocaines/9-babouches-homme-noir-pointues.html None text/html utf-8 0 2/135
+http://www.10k00nt.com/babouches-marocaines/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/babouches-marocaines/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/balance-de-precision/282-balance-de-precision-001-g-bj-usb50.html None text/html utf-8 0 3/132
+http://www.10k00nt.com/balance-de-precision/540-balance-electronique-de-precision-001-g-bj-mp3-50.html None text/html utf-8 0 1/132
+http://www.10k00nt.com/balance-electronique-01g/1080-balance-electronique-precision-ephone-300.html None text/html utf-8 0 2/146
+http://www.10k00nt.com/balance-electronique-01g/1081-balance-electronique-poche-iphone-650.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/balance-electronique-01g/13-balance-electronique-01g-cd-mc-500.html None text/html utf-8 0 2/145
+http://www.10k00nt.com/balance-electronique-01g/14-balance-electronique-de-poche-compact-500.html None text/html utf-8 0 8/145
+http://www.10k00nt.com/balance-electronique-01g/15-balance-de-precission-01g-bj-mp3-150.html None text/html utf-8 0 1/144
+http://www.10k00nt.com/balance-electronique-01g/17-balance-electronique-my-weight-mxt-500.html None text/html utf-8 0 1/146
+http://www.10k00nt.com/balance-electronique-01g/18-balance-electronique-de-poche-iphone-650.html None text/html utf-8 0 2/145
+http://www.10k00nt.com/balance-electronique-01g/1821-balance-proscale-222.html None text/html utf-8 0 1/147
+http://www.10k00nt.com/balance-electronique-01g/23-balance-ecran-tactile-touchscreen-250.html None text/html utf-8 0 1/145
+http://www.10k00nt.com/balance-electronique-01g/231-balance-usa-grow-1000.html None text/html utf-8 0 2/144
+http://www.10k00nt.com/balance-electronique-01g/235-balance-electronique-my-weigh-mxt-500.html None text/html utf-8 0 2/143
+http://www.10k00nt.com/balance-electronique-01g/28-balance-electronique-tactile-touchscreen-300.html None text/html utf-8 0 2/145
+http://www.10k00nt.com/balance-electronique-01g/655-balance-electronique-01g-cd-mc-500.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/balance-electronique-01g/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/balance-electronique-01g/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/balance-par-lot-de-10/1175-lot-de-10-balances-compact-500.html None text/html utf-8 0 7/135
+http://www.10k00nt.com/balance-par-lot-de-10/1176-balance-de-precision-001g-ipod-100-par-10.html None text/html utf-8 0 1/133
+http://www.10k00nt.com/balance-par-lot-de-10/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/balance-par-lot-de-10/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/best-sales.php None text/html utf-8 0 11/134
+http://www.10k00nt.com/best-sales.php?p=2 None text/html utf-8 0 2/135
+http://www.10k00nt.com/best-sales.php?p=3 None text/html utf-8 0 1/134
+http://www.10k00nt.com/blague-a-tabac/1860-blague-a-tabac-en-cuir.html None text/html utf-8 0 1/133
+http://www.10k00nt.com/blague-a-tabac/1861-blague-a-tabac-en-cuir-facon-python.html None text/html utf-8 0 3/134
+http://www.10k00nt.com/blague-a-tabac/1863-balgue-a-tabac-metallise.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/blague-a-tabac/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/blague-a-tabac/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/boite-a-rouler/652-boite-a-rouler-zen.html None text/html utf-8 0 2/135
+http://www.10k00nt.com/boite-a-rouler/686-boite-a-rouler-spliff-box-grande.html None text/html utf-8 0 4/133
+http://www.10k00nt.com/boite-a-rouler/687-boite-a-rouler-spliff-box-moyenne.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/boite-a-rouler/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/boite-a-rouler/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/boite-a-secret/268-boite-de-poche-headcase.html None text/html utf-8 0 4/134
+http://www.10k00nt.com/boite-a-secret/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/boite-a-secret/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/boite-curing/1177-boite-sechage-crane.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/boite-curing/1178-boite-curring-vanity.html None text/html utf-8 0 2/137
+http://www.10k00nt.com/boite-curing/1887-canette-de-soda.html None text/html utf-8 0 3/135
+http://www.10k00nt.com/boite-curing/1889-pile-cachette-.html None text/html utf-8 0 1/138
+http://www.10k00nt.com/boite-curing/58-boite-stash-marley.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/brule-encens-parfum/140-brule-parfum-bleu.html None text/html utf-8 0 3/138
+http://www.10k00nt.com/brule-encens-parfum/141-brule-parfum-vert.html None text/html utf-8 0 1/138
+http://www.10k00nt.com/brule-encens-parfum/142-brule-parfum-jaune.html None text/html utf-8 0 1/138
+http://www.10k00nt.com/brule-encens-parfum/143-brule-parfum-rouge.html None text/html utf-8 0 1/138
+http://www.10k00nt.com/brule-encens-parfum/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/brule-encens-parfum/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/brule-encens/144-brule-encens-marocain.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/brule-encens/150-brule-encens-tajine-bleu.html None text/html utf-8 0 6/134
+http://www.10k00nt.com/brule-encens/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/brule-encens/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/category.php?id_category=103 None text/html utf-8 0 0/127
+http://www.10k00nt.com/category.php?id_category=11 None text/html utf-8 0 0/127
+http://www.10k00nt.com/category.php?id_category=12 None text/html utf-8 0 1/125
+http://www.10k00nt.com/category.php?id_category=13 None text/html utf-8 0 1/125
+http://www.10k00nt.com/category.php?id_category=16 None text/html utf-8 0 3/127
+http://www.10k00nt.com/category.php?id_category=17 None text/html utf-8 0 0/127
+http://www.10k00nt.com/category.php?id_category=19 None text/html utf-8 0 0/127
+http://www.10k00nt.com/category.php?id_category=20 None text/html utf-8 0 6/130
+http://www.10k00nt.com/category.php?id_category=24 None text/html utf-8 0 0/128
+http://www.10k00nt.com/category.php?id_category=30 None text/html utf-8 0 0/134
+http://www.10k00nt.com/category.php?id_category=31 None text/html utf-8 0 0/136
+http://www.10k00nt.com/category.php?id_category=32 None text/html utf-8 0 0/129
+http://www.10k00nt.com/category.php?id_category=33 None text/html utf-8 0 0/130
+http://www.10k00nt.com/category.php?id_category=34 None text/html utf-8 0 0/128
+http://www.10k00nt.com/category.php?id_category=36 None text/html utf-8 0 0/126
+http://www.10k00nt.com/category.php?id_category=37 None text/html utf-8 0 0/126
+http://www.10k00nt.com/category.php?id_category=41 None text/html utf-8 0 0/125
+http://www.10k00nt.com/category.php?id_category=42 None text/html utf-8 0 0/125
+http://www.10k00nt.com/category.php?id_category=43 None text/html utf-8 0 0/126
+http://www.10k00nt.com/category.php?id_category=54 None text/html utf-8 0 1/125
+http://www.10k00nt.com/category.php?id_category=55 None text/html utf-8 0 0/125
+http://www.10k00nt.com/category.php?id_category=56 None text/html utf-8 0 1/125
+http://www.10k00nt.com/category.php?id_category=57 None text/html utf-8 0 1/127
+http://www.10k00nt.com/category.php?id_category=61 None text/html utf-8 0 0/130
+http://www.10k00nt.com/category.php?id_category=62 None text/html utf-8 0 1/125
+http://www.10k00nt.com/category.php?id_category=64 None text/html utf-8 0 3/130
+http://www.10k00nt.com/category.php?id_category=66 None text/html utf-8 0 0/125
+http://www.10k00nt.com/category.php?id_category=71 None text/html utf-8 0 0/127
+http://www.10k00nt.com/category.php?id_category=73 None text/html utf-8 0 1/125
+http://www.10k00nt.com/category.php?id_category=76 None text/html utf-8 0 0/127
+http://www.10k00nt.com/category.php?id_category=80 None text/html utf-8 0 1/125
+http://www.10k00nt.com/cendrier-marocain-8cm/1854-cendrier-marocain-ciseles.html None text/html utf-8 0 3/137
+http://www.10k00nt.com/cendrier-marocain-8cm/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/cendrier-marocain-8cm/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/cendriers-marocains-ciseles/1857-cendrier-cisele-cercle.html None text/html utf-8 0 1/133
+http://www.10k00nt.com/cendriers-marocains-ciseles/1858-cendrier-cisele-orange.html None text/html utf-8 0 5/135
+http://www.10k00nt.com/cendriers-marocains-ciseles/1859-cendrier-cisele-pyramide.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/cendriers-marocains-ciseles/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/cendriers-marocains-ciseles/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/charbon-a-narguile/186-charbon-narguile-rolland.html None text/html utf-8 0 7/139
+http://www.10k00nt.com/charbon-a-narguile/187-charbon-3-mages.html None text/html utf-8 0 3/141
+http://www.10k00nt.com/charbon-a-narguile/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/charbon-a-narguile/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/cheche-echarpe/1071-cheche-rasta.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/667-cheche-marocain-fuschia.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/668-cheche-rouille.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/669-cheche-bleu-touareg.html None text/html utf-8 0 1/144
+http://www.10k00nt.com/cheche-echarpe/670-cheche-touareg-bleu-clair.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/672-cheche-noir-touareg.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/673-cheche-blanc.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/674-echarpe-cheche-touareg-orange.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/675-cheche-femme-rose.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/676-foulard-cheche-jaune.html None text/html utf-8 0 1/143
+http://www.10k00nt.com/cheche-echarpe/677-cheche-homme-rouge.html None text/html utf-8 0 6/143
+http://www.10k00nt.com/clippers-a-l-unitee/1092-briquet-clipper-maxi-fer-a-cheval.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/1201-briquet-clipper-maxi-on-off.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/1203-briquet-clipper-maxi-her-him.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/1204-briquet-clipper-pacman-hum.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/1206-briquet-clipper-pacman-love.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/1207-briquet-clipper-pacman-whaou.html None text/html utf-8 0 5/142
+http://www.10k00nt.com/clippers-a-l-unitee/1208-briquet-clipper-crystal.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/1849-briquet-chalumeau-big-flam.html None text/html utf-8 0 2/142
+http://www.10k00nt.com/clippers-a-l-unitee/493-briquet-clipper-maxi-jackpot.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/495-briquet-clipper-maxi-lucky-girl.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/637-briquet-clipper-maxi-hot.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/clippers-a-l-unitee/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/clippers-a-l-unitee/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/cms.php?id_cms=3 None text/html utf-8 0 0/125
+http://www.10k00nt.com/cms.php?id_cms=4 None text/html utf-8 0 0/124
+http://www.10k00nt.com/contact-form.php None text/html utf-8 0 0/123
+http://www.10k00nt.com/content/1-livraison None text/html utf-8 0 0/125
+http://www.10k00nt.com/content/1-livraison-retours None text/html utf-8 0 0/125
+http://www.10k00nt.com/content/3-conditions-generales-de-ventes None text/html utf-8 0 0/126
+http://www.10k00nt.com/content/4-a-propos None text/html utf-8 0 0/125
+http://www.10k00nt.com/content/5-paiement-securise None text/html utf-8 0 3/125
+http://www.10k00nt.com/content/7-http-www10k00ntcom-incident None text/html utf-8 0 0/126
+http://www.10k00nt.com/content/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/content/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/css/thickbox.css 200 text/css utf-8 0
+http://www.10k00nt.com/decoration-interieure/360-petit-miroir-artisanal-maroc.html None text/html utf-8 0 4/134
+http://www.10k00nt.com/discount.php 302 redirect http://www.10k00nt.com/authentication.php?back=discount.php
+http://www.10k00nt.com/elements/425-feuilles-a-rouler-elements-sticks-larges.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/elements/468-feuilles-a-rouler-elements-stick-larges-par-10-carnets.html None text/html utf-8 0 1/140
+http://www.10k00nt.com/elements/469-feuilles-a-rouler-elements-larges-79-mm-par-boite-de-25-carnets.html None text/html utf-8 0 6/140
+http://www.10k00nt.com/elements/506-feuilles-slim-elements-ultra-fines.html None text/html utf-8 0 1/140
+http://www.10k00nt.com/elements/507-feuilles-slim-elements-boite-de-50-carnets.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/elements/508-feuilles-a-rouler-elements-slims-par-10-carnets.html None text/html utf-8 0 1/141
+http://www.10k00nt.com/elements/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/elements/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/encens-du-monde/224-encens-nag-champa-bleu.html None text/html utf-8 0 3/134
+http://www.10k00nt.com/encens-du-monde/225-nag-shampa-satya-sai-baba-goloka-jaune.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/encens-naturel/381-encens-naturel-assewade.html None text/html utf-8 0 1/140
+http://www.10k00nt.com/encens-naturel/382-melange-d-encens-naturel-sheherazade.html None text/html utf-8 0 1/140
+http://www.10k00nt.com/encens-naturel/383-encens-naturel-yin.html None text/html utf-8 0 1/140
+http://www.10k00nt.com/encens-naturel/384-encens-tree-spirit.html None text/html utf-8 0 3/140
+http://www.10k00nt.com/encens-naturel/385-kit-encens-les-routes-de-l-orient.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/epices-sauvages-du-maroc/608-le-vrai-ras-el-hanout-25-epices.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/epices-sauvages-du-maroc/610-thym-sauvage-du-maroc.html None text/html utf-8 0 4/134
+http://www.10k00nt.com/epices-sauvages-du-maroc/611-menthe-nana-sauvage-sechee-du-moyen-atlas.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/etui-a-cigarette/1156-boite-a-cigarette-ying-yang.html None text/html utf-8 0 4/135
+http://www.10k00nt.com/etui-a-cigarette/1157-boite-a-cigarette-metal-pentagram.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/etui-a-cigarette/644-etui-a-cigarette-plastique-rigide.html None text/html utf-8 0 2/135
+http://www.10k00nt.com/etui-feuille-slim/1817-etui-pour-feuilles-king-size-raw.html None text/html utf-8 0 5/135
+http://www.10k00nt.com/etui-feuille-slim/661-etui-a-feuilles-juicy-pour-carnets-slim-ou-king-size.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/etui-feuille-slim/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/etui-feuille-slim/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/etuis-de-poche/32-pochette-buddha.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/etuis-de-poche/33-pochette-rasta.html None text/html utf-8 0 5/137
+http://www.10k00nt.com/etuis-de-poche/365-porte-monnaie-cuir-jaune.html None text/html utf-8 0 4/139
+http://www.10k00nt.com/etuis-de-poche/366-porte-monnaie-cuir-rouge.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/etuis-de-poche/367-porte-monnaie-cuir-bleu.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/etuis-de-poche/369-porte-monnaie-cuir-orange.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/etuis-de-poche/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/etuis-de-poche/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/filtres-cigarettes/258-filtres-cigarettes-fins-zen.html None text/html utf-8 0 4/130
+http://www.10k00nt.com/filtres-cigarettes/298-filtres-cigarettes-super-fins-zen.html None text/html utf-8 0 1/130
+http://www.10k00nt.com/filtres-cigarettes/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/filtres-cigarettes/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/history.php 302 redirect http://www.10k00nt.com/authentication.php?back=history.php
+http://www.10k00nt.com/huile-d-argan-aux-fleurs/603-huile-d-argan-a-l-essence-de-musc.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/huile-d-argan-aux-fleurs/604-huile-d-argan-a-l-essence-naturelle-de-jasmin-du-maroc.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/huile-d-argan-aux-fleurs/605-huile-d-argan-a-l-essence-naturelle-de-gardenia-du-maroc.html None text/html utf-8 0 4/136
+http://www.10k00nt.com/identity.php 302 redirect http://www.10k00nt.com/authentication.php?back=identity.php
+http://www.10k00nt.com/images/stories/POUF-BLEU-det1.JPG 200 image/jpeg utf-8 0
+http://www.10k00nt.com/images/stories/POUF-JAUNE-det1.JPG 200 image/jpeg utf-8 0
+http://www.10k00nt.com/images/stories/POUF-JAUNE-det2.JPG 200 image/jpeg utf-8 0
+http://www.10k00nt.com/images/stories/POUF-JAUNE-det3grand.JPG 200 image/jpeg utf-8 0
+http://www.10k00nt.com/images/stories/POUF-ORANGE-det1.JPG 200 image/jpeg utf-8 0
+http://www.10k00nt.com/images/stories/boite_a_rouler_feuilles_a_rouler.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_eucab_2.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_eucac_1.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_eucac_3.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_romb1.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_romb2.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_romb3.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_thym1.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_thym2.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/cosm_savon_thym3.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/images/stories/gommage-traditionnel-hamam.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/img/favicon.ico 200 image/x-icon utf-8 0
+http://www.10k00nt.com/js/pluginDetect.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/js/tools.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/keffieh/1074-keffieh-pirate-prune.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/keffieh/1076-keffieh-coeur-rose.html None text/html utf-8 0 1/140
+http://www.10k00nt.com/keffieh/219-keffieh-jaune.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/keffieh/221-kefie-kaki-110.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/keffieh/222-keffieh-rouge.html None text/html utf-8 0 4/139
+http://www.10k00nt.com/keffieh/223-keffieh-rose.html None text/html utf-8 0 1/142
+http://www.10k00nt.com/keffieh/240-kefie-palestinien-blanc-bleu.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/keffieh/243-keffieh-rouge-bordeau.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/keffieh/362-foulard-oriental-kefie-blancbleu-kurde.html None text/html utf-8 0 1/139
+http://www.10k00nt.com/lol/646-feuilles-slim-lol-ultra-fines-filigranees.html None text/html utf-8 0 4/134
+http://www.10k00nt.com/lol/647-feuilles-a-rouler-lol-slim-par-10-carnets.html None text/html utf-8 0 1/136
+http://www.10k00nt.com/lol/648-feuilles-lol-slim-boite-de-50-carnets.html None text/html utf-8 0 1/136
+http://www.10k00nt.com/lol/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/lol/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/manufacturer.php None text/html utf-8 0 2/126
+http://www.10k00nt.com/modules/blockslides/css/slide.css 200 text/css utf-8 0
+http://www.10k00nt.com/modules/blockslides/js/slide.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/modules/blocktopmenu/css/superfish-modified.css 200 text/css utf-8 0
+http://www.10k00nt.com/modules/blocktopmenu/js/hoverIntent.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/modules/blocktopmenu/js/superfish-modified.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/modules/editorials3slider/s3slider.css 200 text/css utf-8 0
+http://www.10k00nt.com/modules/editorials3slider/s3slider.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=0&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=10&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=100&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=101&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=102&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=103&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=104&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=106&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=107&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=108&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=11&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=12&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=13&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=15&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=16&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=17&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=18&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=19&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=20&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=22&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=23&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=24&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=25&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=26&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=27&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=28&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=29&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=30&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=31&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=32&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=33&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=34&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=35&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=36&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=37&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=38&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=39&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=40&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=41&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=42&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=43&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=46&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=47&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=48&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=49&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=50&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=53&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=54&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=55&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=56&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=57&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=58&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=59&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=60&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=61&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=62&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=63&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=64&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=65&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=66&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=68&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=69&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=70&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=71&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=72&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=73&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=75&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=76&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=77&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=78&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=79&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=80&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=81&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=82&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=83&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=84&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=85&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=86&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=87&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=88&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=89&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=92&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=93&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=94&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=95&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=96&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=97&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=98&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/feeder/rss.php?id_category=99&orderby=price&orderway=ASC 200 text/xml utf-8 0
+http://www.10k00nt.com/modules/homefeaturedbul/css/homefeaturedbul.css 200 text/css utf-8 0
+http://www.10k00nt.com/modules/homefeaturedbul/js/homefeaturedbul.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/modules/homefeaturedbul3/css/homefeaturedbul.css 200 text/css utf-8 0
+http://www.10k00nt.com/modules/homefeaturedbul3/js/homefeaturedbul.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/modules/productscategory/js/productscategory.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/modules/psf_producttag/psf_producttag.css 200 text/css utf-8 0
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1067 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1116 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1117 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1122 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1154 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1169 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1171 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1172 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1175 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1184 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1190 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1207 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=14 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=140 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=141 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=142 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=143 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=144 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=15 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=150 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=171 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1817 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1835 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1837 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1842 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1843 None text/html utf-8 0 2/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1844 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1848 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1853 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1854 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1855 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1857 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1858 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1859 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=186 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1860 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1861 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1863 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1865 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=1875 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=258 None text/html utf-8 0 0/125
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=268 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=276 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=298 None text/html utf-8 0 0/125
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=32 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=33 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=365 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=411 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=425 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=468 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=469 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=506 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=507 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=535 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=537 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=575 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=581 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=607 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=646 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=648 None text/html utf-8 0 0/125
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=650 None text/html utf-8 0 0/125
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=661 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=679 None text/html utf-8 0 0/125
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=686 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=688 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=689 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=691 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sendtoafriend/sendtoafriend-form.php?id_product=696 None text/html utf-8 0 0/126
+http://www.10k00nt.com/modules/sotewsaddsbis/files/style.css 200 text/css utf-8 0
+http://www.10k00nt.com/modules/widgetscrolltotop/js/widget_scrolltotop.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/narguile-40-cm/1822-narguile-pumpkin-double.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/narguile-40-cm/549-narguile-pumpkin.html None text/html utf-8 0 4/137
+http://www.10k00nt.com/narguiles-de-40-a-50-cm/1116-narguile-double-orchidee-bleue-42-cm.html None text/html utf-8 0 3/138
+http://www.10k00nt.com/narguiles-de-40-a-50-cm/1117-narguile-double-orchidee-verte-42-cm.html None text/html utf-8 0 2/138
+http://www.10k00nt.com/narguiles-de-40-a-50-cm/1172-narguile-double-orchidee-rouge-42-cm.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/narguiles-de-40-a-50-cm/1875-chicha-double-afia-45-cm.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/narguiles-de-40-a-50-cm/696-narguile-opal-vert-45-cm.html None text/html utf-8 0 1/138
+http://www.10k00nt.com/narguiles-de-40-a-50-cm/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/narguiles-de-40-a-50-cm/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/new-products.php None text/html utf-8 0 0/123
+http://www.10k00nt.com/order.php None text/html utf-8 0 0/123
+http://www.10k00nt.com/order.php?step=1 302 redirect http://www.10k00nt.com/authentication.php?back=order.php?step=1
+http://www.10k00nt.com/parfuns-d-orient/607-musc-en-tablettes.html None text/html utf-8 0 5/133
+http://www.10k00nt.com/parfuns-d-orient/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/parfuns-d-orient/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/password.php None text/html utf-8 0 5/123
+http://www.10k00nt.com/pierre-d-alun/612-pierre-d-alun.html None text/html utf-8 0 4/132
+http://www.10k00nt.com/porte-encens/1184-porte-encens-jack-sparrow.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/porte-encens/411-porte-encens-bois-laiton.html None text/html utf-8 0 4/136
+http://www.10k00nt.com/porte-encens/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/porte-encens/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/pouf-marocain/301-pouf-oriental-jaune.html None text/html utf-8 0 7/140
+http://www.10k00nt.com/pouf-marocain/303-pouf-marocain-vert.html None text/html utf-8 0 3/139
+http://www.10k00nt.com/pouf-marocain/304-pouf-marocain-bleu.html None text/html utf-8 0 2/138
+http://www.10k00nt.com/pouf-marocain/305-pouf-maroc-orange.html None text/html utf-8 0 2/138
+http://www.10k00nt.com/prices-drop.php None text/html utf-8 0 2/131
+http://www.10k00nt.com/prices-drop.php?p=2 None text/html utf-8 0 0/134
+http://www.10k00nt.com/raw/1833-feuilles-raw-slim.html None text/html utf-8 0 1/133
+http://www.10k00nt.com/raw/1835-boite-de-feuilles-raw-par-50-carnets.html None text/html utf-8 0 1/133
+http://www.10k00nt.com/raw/579-feuille-raw-slim.html None text/html utf-8 0 1/133
+http://www.10k00nt.com/raw/580-feuilles-a-rouler-raw-slims-par-10-carnets.html None text/html utf-8 0 1/136
+http://www.10k00nt.com/raw/581-feuilles-a-rouler-raw-slims-boite-50-carnets.html None text/html utf-8 0 4/135
+http://www.10k00nt.com/raw/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/raw/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/rouleuse-feuille-a-rouler-pas-cher/250-rouleuse-blunt-135-mm-zen.html None text/html utf-8 0 4/134
+http://www.10k00nt.com/rouleuse-feuille-a-rouler-pas-cher/306-rouleuse-conique-zen.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/sans-tamis/1154-grinder-electrique.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/sans-tamis/1848-grinder-magnetic-mystic-.html None text/html utf-8 0 1/136
+http://www.10k00nt.com/sans-tamis/276-grinder-weed-pro-2-parties-40-mm.html None text/html utf-8 0 1/137
+http://www.10k00nt.com/sans-tamis/688-grinder-bois-2-parties-ying-51-mm.html None text/html utf-8 0 4/137
+http://www.10k00nt.com/sans-tamis/689-grinder-alu-2-parties-weed-pro-30-mm.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/sans-tamis/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/sans-tamis/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/savon-noir-huiles-essentielles/597-savon-noir-aux-huiles-essentielles-de-romarin-sauvage-du-maroc.html None text/html utf-8 0 6/141
+http://www.10k00nt.com/savon-noir-huiles-essentielles/606-gant-kessa-marocain-en-crepe-pour-gommage.html None text/html utf-8 0 7/137
+http://www.10k00nt.com/savon-noir-huiles-essentielles/613-savon-noir-aux-huiles-essentielles-de-thym-sauvage-du-maroc.html None text/html utf-8 0 5/138
+http://www.10k00nt.com/savon-noir-huiles-essentielles/700-la-gamme-hamam--gant-kessa-offert.html None text/html utf-8 0 5/142
+http://www.10k00nt.com/search.php None text/html utf-8 0 0/123
+http://www.10k00nt.com/search.php?tag=Artisanat None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Balance None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Balance+%C3%A9l%C3%A9ctronique None text/html utf-8 0 0/131
+http://www.10k00nt.com/search.php?tag=Balance+de+poche None text/html utf-8 0 0/130
+http://www.10k00nt.com/search.php?tag=Boite+%C3%A0+Rouler None text/html utf-8 0 0/127
+http://www.10k00nt.com/search.php?tag=Boite+m%C3%A9tal None text/html utf-8 0 0/125
+http://www.10k00nt.com/search.php?tag=Bon+Plan None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Bonnes+Affaires None text/html utf-8 0 0/126
+http://www.10k00nt.com/search.php?tag=Briquet None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Cendrier None text/html utf-8 0 0/129
+http://www.10k00nt.com/search.php?tag=Charbon None text/html utf-8 0 0/128
+http://www.10k00nt.com/search.php?tag=Chicha None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Clipper None text/html utf-8 0 0/134
+http://www.10k00nt.com/search.php?tag=Compact None text/html utf-8 0 0/126
+http://www.10k00nt.com/search.php?tag=D%C3%A9coration None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=ELEMENTS None text/html utf-8 0 0/130
+http://www.10k00nt.com/search.php?tag=Electronique None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Encens None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Etui+Feuille None text/html utf-8 0 0/126
+http://www.10k00nt.com/search.php?tag=Feuilles+%C3%A0+Rouler None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Filtres+cigarettes None text/html utf-8 0 0/124
+http://www.10k00nt.com/search.php?tag=Grinder None text/html utf-8 0 0/130
+http://www.10k00nt.com/search.php?tag=Grinder+Baril None text/html utf-8 0 0/125
+http://www.10k00nt.com/search.php?tag=Lot+de+10 None text/html utf-8 0 0/132
+http://www.10k00nt.com/search.php?tag=Maroc None text/html utf-8 0 5/135
+http://www.10k00nt.com/search.php?tag=Narguil%C3%A9 None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Parfum None text/html utf-8 0 0/125
+http://www.10k00nt.com/search.php?tag=Pochette None text/html utf-8 0 0/126
+http://www.10k00nt.com/search.php?tag=Porte+Encens None text/html utf-8 0 0/126
+http://www.10k00nt.com/search.php?tag=Porte+monnaie None text/html utf-8 0 0/128
+http://www.10k00nt.com/search.php?tag=Raw None text/html utf-8 0 0/127
+http://www.10k00nt.com/search.php?tag=Slim None text/html utf-8 0 1/135
+http://www.10k00nt.com/search.php?tag=Smoking+Brown None text/html utf-8 0 0/127
+http://www.10k00nt.com/search.php?tag=Trip None text/html utf-8 0 0/126
+http://www.10k00nt.com/search.php?tag=Tube+Cigarette None text/html utf-8 0 0/128
+http://www.10k00nt.com/search.php?tag=Utile None text/html utf-8 0 0/134
+http://www.10k00nt.com/sitemap.php None text/htmlDEBUG:crawling:closing resources
+ utf-8 0 8/131
+http://www.10k00nt.com/smoking/1188-feuille-rouler-smoking-brown-slim.html None text/html utf-8 0 3/141
+http://www.10k00nt.com/smoking/1189-feuilles-smoking-brown-slim-par-10-carnets.html None text/html utf-8 0 1/140
+http://www.10k00nt.com/smoking/1190-papier-rouler-smoking-brown-slim-par-boite.html None text/html utf-8 0 2/139
+http://www.10k00nt.com/smoking/1836-paquet-de-feuille-smoking-brown-slim.html None text/html utf-8 0 1/138
+http://www.10k00nt.com/smoking/1837-paquet-de-feuilles-smoking-gold-slim.html None text/html utf-8 0 3/134
+http://www.10k00nt.com/smoking/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/smoking/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/supplier.php None text/html utf-8 0 0/124
+http://www.10k00nt.com/themes/10k/css/global.css 200 text/css utf-8 0
+http://www.10k00nt.com/themes/10k/css/scenes.css 200 text/css utf-8 0
+http://www.10k00nt.com/themes/10k/img/icon/home.gif 200 image/gif utf-8 0
+http://www.10k00nt.com/themes/10k/js/left.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/themes/10k/js/product.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/themes/10k/js/tools.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/themes/10k/js/tools/statesManagement.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/themes/10k/js/tools/treeManagement.js 200 application/x-javascript utf-8 0
+http://www.10k00nt.com/trip/1122-feuilles-transparentes-king-size-par-10-carnets.html None text/html utf-8 0 1/135
+http://www.10k00nt.com/trip/535-feuille-a-rouler-transparentetrip-king-size.html None text/html utf-8 0 4/132
+http://www.10k00nt.com/trip/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/trip/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/tube-cigarette/253-tube-cigarette-zen.html None text/html utf-8 0 1/134
+http://www.10k00nt.com/tube-cigarette/408-tube-cigarette-menthol-zen.html None text/html utf-8 0 3/132
+http://www.10k00nt.com/tubes-a-cigarette-par-1000/1067-tubes-menthol-zen-les-1000.html None text/html utf-8 0 4/133
+http://www.10k00nt.com/tubes-a-cigarette-par-1000/537-tube-normales-zen-les-1000.html None text/html utf-8 0 1/133
+http://www.10k00nt.com/tubes-a-cigarette-par-1000/contact-form.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/tubes-a-cigarette-par-1000/password.php 404 text/html utf-8 0 0/0
+http://www.10k00nt.com/tubeuse-cigarette/1850-tubeuse-shooters-laramie.html None text/html utf-8 0 6/133
+Finished 631 urls in 2182.591 secs (max_tasks=100) (0.003 urls/sec/task)
+       494 html
+         0 html_bytes
+       132 other
+         0 other_bytes
+         5 redirect
+Todo: 125
+Done: 631
+Date: Thu Nov 26 19:00:36 2015 local time
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
+ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<Crawler.work() running at /home/koolkat/Projects/prixan-spyder/app/crawling.py:226> wait_for=<Future finished exception=ServerDisconnectedError()>>
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=ServerDisconnectedError()>
+aiohttp.errors.ServerDisconnectedError
