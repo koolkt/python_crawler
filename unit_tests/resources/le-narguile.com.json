@@ -1,0 +1,63 @@
+{
+  "url": "le-narguile.com",
+  "selectors": {
+    "breadcrumb_css": [
+      ".breadcrumbs li:not(li:first) a span",
+      ".breadcrumbs a:not(a:first) span",
+      ".breadcrumbs a:not(a:first)",
+      ".breadcrumb li:not(li:first) a span",
+      ".breadcrumb a:not(a:first) span",
+      ".breadcrumb a:not(a:first)"
+    ],
+    "prix_css": [
+      ".product-view .price-box:eq(0) .special-price .price:last",
+      ".product-view .price-box:eq(0) .regular-price .price:last",
+      ".product-view .price-box:eq(0) .price:last",
+      ".product-view .price:first",
+      ".product-essential .price-box:eq(0) .special-price .price:last",
+      ".product-essential .price-box:eq(0) .regular-price .price:last",
+      ".product-essential .price-box:eq(0) .price:last",
+      ".product-essential .price:first",
+      ".product-box .price-box:eq(0) .special-price .price:last",
+      ".product-box .price-box:eq(0) .regular-price .price:last",
+      ".product-box .price-box:eq(0) .price:last",
+      ".product-box .price:first"
+    ],
+    "nom_css": [
+      ".product-view .product-name h1",
+      ".product-view .product-name h2",
+      ".product-view .product-name",
+      ".product-view .produit-title h1",
+      ".product-view .produit-title",
+      ".product-view h1",
+      ".product-essential .product-name h1",
+      ".product-essential .product-name h2",
+      ".product-essential .product-name",
+      ".product-essential .produit-title h1",
+      ".product-essential .produit-title",
+      ".product-essential h1",
+      ".product-box .product-name h1",
+      ".product-box .product-name h2",
+      ".product-box .product-name",
+      ".product-box .produit-title h1",
+      ".product-box .produit-title",
+      ".product-box h1",
+      ".product-name h1:eq(0)",
+      ".produit-title h1"
+    ],
+    "image_css": [
+      ".product-view .product-img-box #image",
+      ".product-view .product-img-box #zoom1 img:eq(0)",
+      ".product-view .product-img-box img:eq(0)",
+      ".product-view .product-image:eq(0) img:eq(0)",
+      ".product-essential .product-img-box #image",
+      ".product-essential .product-img-box #zoom1 img:eq(0)",
+      ".product-essential .product-img-box img:eq(0)",
+      ".product-essential .product-image:eq(0) img:eq(0)",
+      ".product-box .product-img-box #image",
+      ".product-box .product-img-box #zoom1 img:eq(0)",
+      ".product-box .product-img-box img:eq(0)",
+      ".product-box .product-image:eq(0) img:eq(0)"
+    ]
+  }
+}

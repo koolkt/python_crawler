@@ -1,0 +1,46 @@
+{
+  "url": "royaledeco.com",
+  "selectors": {
+    "marque_css": [
+      "a[itemprop=brand] img",
+      ".product-manufacturer a"
+    ],
+    "reference_css": [
+      "#product_reference .editable"
+    ],
+    "nom_css": [
+      "#productWrap2 h1:eq(0)",
+      "#primary_block #product-name h1",
+      "#primary_block #product-name",
+      "#pb-right-column h1:eq(0)",
+      "#pb-right-column #product-name",
+      "#pb-left-column h1:eq(0)",
+      "#pb-left-column #product-name",
+      "#primary_block h2:eq(0)",
+      "#primary_block #product-name h2",
+      "#pb-right-column h2:eq(0)",
+      "#pb-left-column h2:eq(0)"
+    ],
+    "image_css": [
+      "#productImage  #Imagehoverable img:eq(0)",
+      "#primary_block #view_full_size img:eq(0)",
+      "#primary_block #image-block img:eq(0)",
+      "#primary_block .MagicZoomPlus img:eq(0)",
+      "#pb-right-column .MagicZoomPlus img:eq(0)",
+      "#pb-left-column .MagicZoomPlus img:eq(0)",
+      "#pb-right-column img:eq(0)",
+      "#pb-left-column img:eq(0)"
+    ],
+    "prix_css": [
+      "#productWrap2 #prix-produit .prix",
+      "#pb-right-column #our_price_display",
+      "#pb-left-column #our_price_display"
+    ],
+    "breadcrumb_css": [
+      ".breadcrumbs  a:not(a:first)",
+      "#breadcrumbs  a:not(a:first)",
+      "#breadcrumb a:not(a:first)",
+      ".breadcrumb a:not(a:first)"
+    ]
+  }
+}
