@@ -1,2 +1,3 @@
 # python_crawler
-Simple web crawler using asyncio.
+
+Python crawler implemented using asyncio and python 3.5

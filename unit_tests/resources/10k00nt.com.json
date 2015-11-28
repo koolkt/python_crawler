@@ -1,0 +1,17 @@
+{
+  "url": "http://www.10k00nt.com",
+  "selectors": {
+    "prix_css": [
+      ".price .our_price_display #our_price_display"
+    ],
+    "nom_css": [
+      "#center_column #primary_block h2"
+    ],
+    "image_css": [
+      "#pb-right-column #image-block #bigpic"
+    ],
+    "breadcrumb_css": [
+      ".breadcrumb .navigation_end  a"
+    ]
+  }
+}
