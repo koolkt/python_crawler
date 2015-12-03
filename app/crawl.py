@@ -15,6 +15,7 @@ import reporting
 import json
 import functools
 from scraper import Scraper
+import MySQLdb
 
 ARGS = argparse.ArgumentParser(description="Web crawler")
 ARGS.add_argument(
@@ -87,11 +88,17 @@ def main():
         loop = asyncio.get_event_loop()
 
     if not args.roots:
-        r = redis.StrictRedis(host='localhost', port=6379, db=0)
-        data = [r.blpop('queue:urls_to_crawl')]
-        # data.append(r.blpop('queue:urls_to_crawl'))
-        # data.append(r.blpop('queue:urls_to_crawl'))
-        roots, scrape_data = init_data(data)
+        # r = redis.StrictRedis(host='localhost', port=6379, db=0)
+        # data = [r.blpop('queue:urls_to_crawl')]
+        # # data.append(r.blpop('queue:urls_to_crawl'))
+        # # data.append(r.blpop('queue:urls_to_crawl'))
+        # roots, scrape_data = init_data(data)
+        db=MySQLdb.connect(passwd="ofloda@123",db="prixanbdd")
+        c=db.cursor()
+        max_price=5
+        c.execute("""SELECT url_si from site limit 100""")
+        roots = c.fetchall()
+        roots = { fix_url(r[0]) for r in roots}
         s = None#Scraper(scrape_data)
     else:
         roots = {fix_url(root) for root in args.roots}

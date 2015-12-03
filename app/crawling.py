@@ -57,7 +57,7 @@ class Crawler(object):
     def __init__(self, roots, scraper= None, data_handler=None,
                  exclude=None, strict=True,  # What to crawl.
                  max_redirect=5, max_tries=10,  # Per-url limits.
-                 max_tasks=10, max_connections_per_host=3,*, loop=None):
+                 max_tasks=100, max_connections_per_host=10000,*, loop=None):
         self.loop = loop or asyncio.get_event_loop()
         self.roots = roots
         self.max_connections_per_host = max_connections_per_host
@@ -180,6 +180,8 @@ class Crawler(object):
                 if tries > 1:
                     LOGGER.debug('try %r for %r success', tries, url)
                 break
+            except TimeoutError as e:
+                print('ssssssssssss***********************************************************')
             except Exception as client_error:
                 sleep_time += 5
                 yield from asyncio.sleep(sleep_time)
